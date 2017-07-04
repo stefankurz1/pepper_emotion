@@ -1,0 +1,26 @@
+[
+	 	{
+	 		"name"					:	"fear",
+	 		"window_size"			:	3.0,
+	 		"increase_factor"		:	2.0,
+	 		"decrease_factor"		:	1.0
+	 	},
+	 	{
+	 		"name"					:	"surprise",
+	 		"window_size"			:	3.0,
+	 		"increase_factor"		:	100.0,
+	 		"decrease_factor"		:	2.0
+	 	},
+	 	{
+	 		"name"					:	"interest",
+	 		"window_size"			:	3.0,
+	 		"increase_factor"		:	2.0,
+	 		"decrease_factor"		:	1.0
+	 	},
+	 	{
+	 		"name"					:	"relief",
+	 		"window_size"			:	5.0,
+	 		"increase_factor"		:	2.0,
+	 		"decrease_factor"		:	1.0
+	 	}
+	 ]

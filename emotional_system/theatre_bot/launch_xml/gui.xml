@@ -1,0 +1,4 @@
+<launch>
+	<node pkg="test_action_modulation" type="Action.py" name="GUI_node">
+	</node>
+</launch>

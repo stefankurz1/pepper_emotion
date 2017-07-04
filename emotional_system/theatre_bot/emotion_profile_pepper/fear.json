@@ -1,0 +1,45 @@
+{
+	"emotion"		:	"fear",
+	"observation"	:	"",
+	"move_body"		:
+		{
+			"description"	:
+				{
+					"emotionProfileAction"	:	"move_body",
+					"emotionProfileEmotion"	:	"fear",
+					"type"					:	"movement_parameter"
+				},
+			"actions"	:
+				{
+					"move_body"	:
+						{
+							"reference"		:	500.0,
+							"repetition"	:	"no",
+							"parameters"	:
+								[
+									{"time":0.2,"space":100.0},
+									{"time":0.4,"space":100.0},
+									{"time":0.25,"space":200.0}
+								]
+						},
+					"move_torso"	:
+						{
+							"reference"		:	0.1,
+							"repetition"	:	"no",
+							"parameters"	:
+								[
+									{"time":1.0,"space":0.34}
+								]
+						},
+					"move_shoulder"	:
+						{
+							"reference"		:	1.0,
+							"repetition"	:	"no",
+							"parameters"	:
+								[
+									{"time":1.0,"space":0.52}
+								]
+						}
+				}
+		}
+}

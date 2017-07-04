@@ -1,0 +1,26 @@
+{
+	"distance":1000.0,
+	"emotion":"Content",
+	"observation":"Content",
+	"move_body":
+		{
+			"description":
+				{
+					"emotionProfileAction":"move_body",
+					"emotionProfileEmotion":"content"
+				},
+			"actions":
+				{
+					"move_body":
+						[
+						{"time":1.3333333730697632,"space":200.0},
+						{"time":1.3333333730697632,"space":400.0}
+						],
+					"oscillate_body":
+						[
+						{"time":1.0,"space":0.1745000034570694},
+						{"time":1.0,"space":0.1745000034570694}
+						]
+				}
+		},
+	"oscillate_shoulder":{"description":{"emotionProfileAction":"oscillate_shoulder","emotionProfileEmotion":"content"},"actions":{"oscillate_shoulder":[{"time":0.875,"space":0.3499999940395355},{"time":0.875,"space":0.3499999940395355}],"move_shoulder":[{"time":0.0,"space":0.0},{"time":0.0,"space":0.0}]}},"move_torso":{"description":{"emotionProfileAction":"move_torso","emotionProfileEmotion":"content"},"actions":{"move_torso":[{"time":1.0,"space":1.0},{"time":0.0,"space":1.0}],"oscillate_torso":[{"time":0.0,"space":0.0},{"time":0.0,"space":0.0}]}}}

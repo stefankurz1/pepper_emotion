@@ -1,0 +1,10 @@
+{
+	"social_bias" 				:	0.0,
+	"decrease_factor"			:	-0.6,
+	"base_increase"				:	30.0,
+	"factor_increase"			: 	10.0,
+	"increase_coefficient"		:	0.3,
+	"minimum_time_to_image"		:	0.1,
+	"time_factor_coefficient"	:	9.4,
+	"threshold"					:	13
+}

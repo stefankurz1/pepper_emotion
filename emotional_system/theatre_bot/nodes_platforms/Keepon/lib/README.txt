@@ -1,0 +1,1 @@
+in the folder 32 bits is the library to use in 32 bits machines

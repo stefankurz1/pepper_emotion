@@ -1,0 +1,12 @@
+<launch>
+	<node pkg="theatre_bot" type="action_modulation_node" name="action_modulation_node">
+	</node>
+	<node pkg="theatre_bot" type="not_do_anything_execution_node" name="not_do_anything_execution_node">
+	</node>
+	<node pkg="theatre_bot" type="body_action_node" name="body_action_node">
+	</node>
+	<node pkg="theatre_bot" type="shoulder_action_node" name="shoulder_action_node">
+	</node>
+	<node pkg="theatre_bot" type="torso_action_node" name="torso_action_node">
+	</node>
+</launch>

@@ -1,0 +1,8 @@
+
+// set correct IP in pepper_bringup and pepper_emotion.h
+
+   roslaunch pepper_bringup pepper_full.launch nao_ip:=192.168.0.107 roscore_ip:=127.0.0.1 network_interface:=wlan0
+
+   roslaunch theatre_bot theatre_bot_pepper.launch
+
+   rosrun rviz rviz

@@ -1,0 +1,5 @@
+<launch>
+	<param name="debug_emotional_system" value="$(find theatre_bot)/debug"/>
+	<include file="$(find theatre_bot)/launch_xml/emotion_selection.xml"/>
+	<include file="$(find theatre_bot)/launch_xml/pattern_detection.xml"/>
+</launch>

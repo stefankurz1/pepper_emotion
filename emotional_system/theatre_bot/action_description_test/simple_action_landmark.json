@@ -1,0 +1,13 @@
+{
+	"type": "simple_action",
+	"name": "move_body",
+	"parameters":
+		[
+			{
+				"type": "mandatory_parameter",
+				"name": "parameter_landmark",
+				"landmark_type" : "person_landmark",
+				"landmark_id" : 1
+			}
+		]
+}

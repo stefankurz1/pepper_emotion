@@ -1,0 +1,85 @@
+{
+"emotion":"Angry",
+"observation":"",
+"move_body":
+	{
+	"description":
+		{
+		"emotionProfileAction":"move_body",
+		"emotionProfileEmotion":"angry",
+		"type":"movement_parameter"
+		},
+	"actions":
+		{
+		"move_body":
+			{
+				"reference": 600.0,
+				"repetition":"yes",
+				"parameters":
+					[
+						{"time":0.10000000149011612,"space":50.0},
+						{"time":0.3333333432674408,"space":100.0}
+					]
+			},
+		"oscillate_body":
+			{
+				"reference": 1.8,
+				"repetition":"no",
+				"parameters":
+					[
+						{"time":0.024857142940163612,"space":0.08699999749660492}
+					]
+			}
+		}
+	},
+"oscillate_shoulder":
+	{
+	"description":
+		{
+		"emotionProfileAction":"oscillate_shoulder",
+		"emotionProfileEmotion":"angry",
+		"type":"movement_parameter"
+		},
+	"actions":
+		{
+		"oscillate_shoulder":
+			{
+				"reference": 1.8,
+				"repetition":"no",
+				"parameters":
+					[
+						{"time":0.11219999939203262,"space":0.7853999733924866}
+					]
+			},
+		"move_shoulder":
+			{
+				"reference": 1.8,
+				"repetition":"no",
+				"parameters":
+					[
+						{"time":0.0,"space":-0.3}
+					]
+			}
+		}
+	},
+"move_torso":
+	{
+	"description":
+		{
+		"emotionProfileAction":"move_torso",
+		"emotionProfileEmotion":"angry",
+		"type":"movement_parameter"
+		},"actions":
+		{
+		"move_torso":
+			{
+				"reference": 1.8,
+				"repetition":"no",
+				"parameters":
+					[
+						{"time":0.75,"space":-0.30000001192092896}
+					]
+			}
+		}
+	}
+}

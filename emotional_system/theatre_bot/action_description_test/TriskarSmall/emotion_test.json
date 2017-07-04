@@ -1,0 +1,81 @@
+{
+	"type"			:	"serial_context",
+	"emotion_synch"	:	"yes",
+	"action_synch"	:	"yes",
+	"is_primary"	:	"yes",
+	"information"	:	"",		
+	"actions"		:
+	 [{
+				"type"			: "simple_action",
+				"is_primary"	: "yes",
+				"name"			: "do_nothing",
+				"parameters"	:
+					[
+						{
+							"type"		:	"mandatory_parameter",
+							"name" : "parameter_time",
+							"time" : 5,
+			  				"emotional_time": 0.5,
+			  				"repeat_emotional": "yes"
+						}
+					]
+			},
+	 	{
+		"type": "simple_action",
+		"name": "move_body",
+		"is_primary": "yes",
+		"parameters":
+			[
+				{
+					"type"		:	"mandatory_parameter",
+					"name"		:	"parameter_point",
+					"pose" 		:	[0,0,0,1],
+					"point" 	:	[0,1500,0]
+				}
+			]
+		},
+		{
+		"type": "simple_action",
+		"name": "move_body",
+		"is_primary": "yes",
+		"parameters":
+			[
+				{
+					"type"		:	"mandatory_parameter",
+					"name"		:	"parameter_point",
+					"pose" 		:	[0,0,-0.70710678,0.70710678],
+					"point" 	:	[-1500,1500,0]
+				}
+			]
+		},
+		{
+		"type": "simple_action",
+		"name": "move_body",
+		"is_primary": "yes",
+		"parameters":
+			[
+				{
+					"type"		:	"mandatory_parameter",
+					"name"		:	"parameter_point",
+					"pose" 		:	[0,0,1,0.0],
+					"point" 	:	[-1500,500,0]
+				}
+			]
+		},
+		{
+		"type": "simple_action",
+		"name": "move_body",
+		"is_primary": "yes",
+		"parameters":
+			[
+				{
+					"type"		:	"mandatory_parameter",
+					"name"		:	"parameter_point",
+					"pose" 		:	[0,0,1,0.0],
+					"point" 	:	[0,500,0]
+				}
+			]
+		}
+	 
+	 ]
+}

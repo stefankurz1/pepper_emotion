@@ -1,0 +1,13 @@
+{ 
+	"is_primary"    :    "yes", 
+	"type" :"simple_action", 
+	"name" : "move_torso", 
+	"parameters" : 
+		[
+			{ 
+				"type": "mandatory_parameter",
+				"name":"parameter_amplitude",
+				"amplitude" : [-0.3,-0.2,0]
+			}
+		]
+}

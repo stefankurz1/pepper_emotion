@@ -1,0 +1,20 @@
+image_width: 640
+image_height: 480
+camera_name: camera_logitec_c270
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [801.832007888306, 0.0, 315.40922089204423, 0.0, 801.6605326037512, 266.3333743889713, 0.0, 0.0, 1.0]
+distortion_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [-0.0030295651822951205, -0.057387259021676636, 0.004280624054496673, 0.0005663376887699513, 0.0]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data:  [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [799.6575927734375, 0.0, 315.1142512966726, 0.0, 0.0, 798.7652587890625, 266.7951119785721, 0.0, 0.0, 0.0, 1.0, 0.0]

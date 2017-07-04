@@ -1,0 +1,1 @@
+This world model contains the necessary information to localize the robot in the environmnet.

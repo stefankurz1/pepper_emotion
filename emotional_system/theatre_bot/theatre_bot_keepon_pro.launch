@@ -1,0 +1,15 @@
+<launch>
+	<group ns="action_modulation">
+		<param name="desire_platform" value="keepon"/>
+		<param name="directory_emotions" value="$(find theatre_bot)/emotion_profile"/>
+		<param name="character_profile" value="$(find theatre_bot)/character_description_emotion/character_one"/>
+		<remap from = "/action_modulation/change_emotion" to = "/change_emotion"/>
+		<remap from = "/action_modulation/change_action" to = "/change_action"/>
+		<remap from = "/action_modulation/keepon_action" to = "/keepon_action"/>
+		<remap from = "/action_modulation/keepon_information" to = "/keepon_information"/>
+		<remap from = "/action_modulation/keepon_action" to = "/keepon_action"/>
+		<include file="$(find theatre_bot)/launch_xml/action_modulation_nodes.xml"/>
+	</group>
+	<node pkg="theatre_bot" type="keepon_node" name="keepon_node">
+	</node>
+</launch>

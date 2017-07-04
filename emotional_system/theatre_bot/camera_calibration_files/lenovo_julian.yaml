@@ -1,0 +1,20 @@
+image_width: 640
+image_height: 480
+camera_name: lenovo_julian
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [816.1336211319257, 0.0, 306.8348663288842, 0.0, 814.0013686860049, 242.13946686164306, 0.0, 0.0, 1.0]
+distortion_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [0.00022063470173871546, -0.019444604898470236, -0.003061225743393402, 0.0006067174346607225, 0.0]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [815.4965209960938, 0.0, 306.5898856083368, 0.0, 0.0, 812.7001953125, 240.853005356621, 0.0, 0.0, 0.0, 1.0, 0.0]

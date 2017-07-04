@@ -1,0 +1,49 @@
+{
+	"type"			:	"parallel_context",
+	"emotion_synch"	:	"no",
+	"action_synch"	:	"yes",
+	"is_primary"	:	"yes",
+	"information"	:	"speak and walk in parallel",		
+	"actions"		:
+					[
+						{
+							"type"			:	"composite_action",
+							"is_primary"	:	"yes",
+							"name"			:	"walk",
+							"parameters"	:
+											[
+												{
+													"type"		:	"mandatory_parameter",
+													"name"		:	"parameter_point_body",
+													"point" 	:	[0,0,0],
+													"pose"		:	[0,0,0,1]
+												},
+												{
+													"type"		:	"mandatory_parameter",
+													"name"		:	"parameter_amplitude_shoulder",
+													"amplitude"	:	[0.1,0,0]
+												},
+												{
+													"type"		:	"mandatory_parameter",
+													"name"		:	"parameter_amplitude_torso",
+													"amplitude"	:	[0.1,0,0]
+												}
+											]	
+						},
+						{
+							"type"			:	"simple_action",
+							"is_primary"	:	"no",
+							"name"			:	"speak",
+							"parameters"	:
+												[
+													{
+														"type"		:	"mandatory_parameter",
+														"name"		:	"parameter_speech",
+														"text"		:	"Hello"
+													}
+												]
+												
+						}
+					
+					]
+}

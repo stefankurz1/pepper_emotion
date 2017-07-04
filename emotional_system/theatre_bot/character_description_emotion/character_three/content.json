@@ -1,0 +1,43 @@
+{
+	
+	"emotion":		"content",
+	"actions" :
+	[
+		{
+			"action":		"move_body",
+			"bias":			350.0,
+			"amplitude":	1.0,
+			"logness"	:	1.0
+		},
+		{
+			"action":		"move_torso",
+			"bias":			1.0,
+			"amplitude":	1.0,
+			"logness"	:	1.0
+		},
+		{
+			"action":		"move_shoulder",
+			"bias":			1.0,
+			"amplitude":	1.0,
+			"logness"	:	1.0
+		},
+		{
+			"action":		"oscillate_body",
+			"bias":			1.0,
+			"amplitude":	1.0,
+			"logness"	:	1.0
+		},
+		{
+			"action":		"oscillate_torso",
+			"bias":			1.0,
+			"amplitude":	1.0,
+			"logness"	:	1.0
+		},
+		{
+			"action":		"oscillate_shoulder",
+			"bias":			1.0,
+			"amplitude":	1.0,
+			"logness"	:	1.0
+		}
+	]
+}

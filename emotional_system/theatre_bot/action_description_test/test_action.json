@@ -1,0 +1,16 @@
+{
+    "is_primary": "yes",
+    "type": "simple_action",
+    "name": "do_nothing",
+    "parameters": [
+        {
+            "type": "mandatory_parameter",
+            "name": "position_parameter",
+            "point": [
+                0,
+                0,
+                0
+            ]
+        }
+    ]
+}

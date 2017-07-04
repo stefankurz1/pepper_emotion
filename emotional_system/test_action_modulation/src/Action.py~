@@ -1,0 +1,99 @@
+#!/usr/bin/env python
+
+import threading
+import rospy
+import tf
+from panels import ActionModulation
+from Tkinter import Tk
+from theatrebot_action_modulation.msg import ActionDesireMessage,OdometryTriskar
+from std_msgs.msg import String,Char
+
+from ttk import Frame
+
+"""
+this interface is to test the action modulation system.
+it show de current possition of the robot, the velocity.
+it could be used to send a set of emotions and actions. 
+the parameters that could be send to the module are position and velocity.
+
+The button stop just stop the platform not the module, thus the robot
+will continue moving even if this button was pressed because the module will 
+continue sending messages to the platform.
+
+To resolved this problem the button abort was added, which sends to the module
+the action not_do_anything and then sends the message to the platform to stop.
+
+To add new actions and emotions has to be changed the file ./panels/ActionModulation.py
+"""
+def interface_test_action_modulation():
+        global app
+        root = Tk()
+        app = ActionModulation.ActionModulation(root)
+        rospy.init_node('interface_test_action_modulation', anonymous=True)
+        pubNewAction = rospy.Publisher('/action_modulation/new_action',ActionDesireMessage,queue_size=10)
+        pubNewEmotion = rospy.Publisher('/action_modulation/new_emotion',String,queue_size=10)
+        pubCommand = rospy.Publisher('commands_triskar',Char,queue_size=10)
+        rospy.Subscriber("odometry_triskar", OdometryTriskar, callback)
+        app.getButtonSend().configure(command= lambda: pub_information(pubNewAction,pubNewEmotion))
+        app.getButtonAbort().configure(command = lambda: pub_abort(pubCommand,pubNewAction,pubNewEmotion))
+        app.getButtonReset().configure(command= lambda: pub_reset(pubCommand))
+        app.getButtonStop().configure(command= lambda: pub_stop(pubCommand))
+        root.mainloop()
+        
+def callback(data):
+    app.getPanelInfoPosition().setInfo(data.pose.position.x,data.pose.position.y,data.pose.orientation)
+    app.getPanelInfoVelocity().setInfo(data.twist.linear.x,data.twist.linear.y,data.twist.angular)
+    
+def pub_abort(pubCommand,pubNewAction,pubNewEmotion):
+    #send the not_do_anything action this stops the platform
+    message = ActionDesireMessage()
+    message.action_name.data = 'not_do_anything'
+    pubNewAction.publish(message)
+    #send the neutral emotion
+    emotion = 'neutral'
+    pubNewEmotion.publish(emotion)
+    #stop the robot
+    pub_stop(pubCommand)
+
+def pub_information(pubNewAction,pubNewEmotion):
+    print 'send info'
+    message = ActionDesireMessage()
+    message.action_name.data = app.getListAction() 
+    message.desire_position.type_parameter.data = "point_position"
+    x,y,theta = app.getPanelPosition().getInfo()
+    message.desire_position.desire_position.position.x = float(x)
+    message.desire_position.desire_position.position.y = float(y)
+    q = tf.transformations.quaternion_from_euler(0,0,float(theta))
+    message.desire_position.desire_position.orientation.x = q[0]
+    message.desire_position.desire_position.orientation.y = q[1]
+    message.desire_position.desire_position.orientation.z = q[2]
+    message.desire_position.desire_position.orientation.w = q[3]
+    vx,vy,vtheta = app.getPanelVelocity().getInfo()
+    message.trajectory_characteristic.type_parameter.data = "velocity_parameter"
+    message.trajectory_characteristic.trajectory_characteristic.linear.x = float(vx)
+    message.trajectory_characteristic.trajectory_characteristic.linear.y = float(vy)
+    message.trajectory_characteristic.trajectory_characteristic.angular.x = float(vtheta)
+    pubNewAction.publish(message)
+    emotion = String()
+    emotion.data = app.getListEmotion()
+    pubNewEmotion.publish(emotion)
+
+def pub_stop(pubCommand):    
+    print 'stop'
+    str = 83
+    pubCommand.publish(str)
+
+def pub_reset(pubCommand):
+    print 'reset'
+    str = 82
+    pubCommand.publish(str)
+    
+'''def update_data(root):
+    print 'aaa'
+    root.after(500,update_data,root)'''
+    
+    
+if __name__ == '__main__':
+    try:
+        interface = interface_test_action_modulation()
+    except rospy.ROSInterruptException: pass

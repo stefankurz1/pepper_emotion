@@ -1,0 +1,61 @@
+{
+	"type"			:	"parallel_context",
+	"emotion_synch"	:	"yes",
+	"action_synch"	:	"yes",
+	"is_primary"	:	"yes",
+	"information"	:	"",		
+	"actions"		:
+		[
+			{
+				"type"			:	"serial_context",
+				"information"	:	"speak and walk in parallel",
+				"is_primary"	:	"no",
+				"actions"		:
+					[
+						{ 
+							"is_primary"    :    "no", 
+							"type" :"simple_action", 
+							"name" : "move_body", 
+							"parameters" : 
+							[
+								{
+									"type": "mandatory_parameter",
+									"name":"parameter_point",
+									"pose" : [0.0,0.0,0.999783764189,0.0207948278031],
+									"point" : [5,0,0.2]
+								}
+							]
+						},
+						{ 
+							"is_primary"    :    "no", 
+							"type" :"simple_action", 
+							"name" : "move_body", 
+							"parameters" : 
+							[
+								{
+									"type": "mandatory_parameter",
+									"name":"parameter_point",
+									"pose" : [0.0,0.0,0.0,1.0],
+									"point" : [5,0,0.2]
+								}
+							]
+						}
+					]
+			},
+			{
+				"type"			: "simple_action",
+				"is_primary"	: "yes",
+				"name"			: "do_nothing",
+				"parameters"	:
+					[
+						{
+							"type"		:	"mandatory_parameter",
+							"name" : "parameter_time",
+							"time" : 5,
+			  				"emotional_time": 0.5,
+			  				"repeat_emotional": "yes"
+						}
+					]
+			}		
+		]
+}

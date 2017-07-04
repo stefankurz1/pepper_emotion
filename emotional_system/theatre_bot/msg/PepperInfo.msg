@@ -1,0 +1,4 @@
+bool fin_move_shoulder
+bool fin_move_torso_x
+bool fin_move_torso_y
+bool fin_move_body

@@ -1,0 +1,26 @@
+<launch>
+	<group ns="action_modulation">
+		<param name="desire_platform" value="triskar_small"/>
+		<param name="directory_emotions" value="$(find theatre_bot)/emotion_profile_new"/>
+		<param name="project_directory" value="$(find theatre_bot)"/>
+		<param name="character_profile" value="$(find theatre_bot)/character_description_emotion/character_one"/>
+		<remap from = "/action_modulation/change_emotion" to = "/change_emotion"/>
+		<remap from = "/action_modulation/change_action" to = "/change_action"/>
+		<remap from = "/action_modulation/upper_triskar" to = "/upper_triskar"/>
+		<remap from = "/action_modulation/servo_triskar" to = "/servo_triskar"/>
+		<remap from = "/action_modulation/vel_triskar" to = "/vel_triskar"/>
+		<remap from = "/action_modulation/commands_triskar" to = "/commands_triskar"/>
+		<remap from = "/action_modulation/odometry_triskar" to = "/odometry_triskar"/>
+		<remap from = "/action_modulation/emotional_move_synch" to = "/emotional_move_synch"/>
+		<remap from = "/action_modulation/emotional_triskar" to = "/emotional_triskar"/>
+		<remap from = "/action_modulation/action_triskar" to = "/action_triskar"/>
+		<include file="$(find theatre_bot)/launch_xml/action_modulation_nodes.xml"/>
+	</group>
+	<node pkg="rosserial_python" type="serial_node.py" name="serial_node">
+		<param name="port" value="/dev/ttyACM0" />
+		<param name="baud" value="115200" />
+	</node>
+	<param name="debug_emotional_system" value="$(find theatre_bot)/debug"/>
+	<include file="$(find theatre_bot)/launch_xml/emotion_selection.xml"/>
+	<include file="$(find theatre_bot)/launch_xml/pattern_detection.xml"/>
+</launch>

@@ -1,0 +1,115 @@
+{
+	"type"			:	"serial_context",
+	"emotion_synch"	:	"yes",
+	"action_synch"	:	"yes",
+	"is_primary"	:	"yes",
+	"information"	:	"",		
+	"actions"		:
+	 [
+			{
+				"type"			: "simple_action",
+				"is_primary"	: "yes",
+				"name"			: "move_body",
+				"parameters"	:
+					[
+						{
+							"type"		:	"mandatory_parameter",
+							"name"		: 	"parameter_landmark",
+							"landmark_type"	:	"Place_Landmark",
+							"landmark_id" : 64,
+							"pose" :	[0.0,0.0,-0.38268,0.92388]
+						}
+					]
+			},
+			{
+				"type"			: "simple_action",
+				"is_primary"	: "yes",
+				"name"			: "move_body",
+				"parameters"	:
+					[
+						{
+							"type"		:	"mandatory_parameter",
+							"name"		: 	"parameter_landmark",
+							"landmark_type"	:	"Place_Landmark",
+							"landmark_id" : 57,
+							"pose" :	[0.0,0.0,-0.38268,0.92388]
+						}
+					]
+			},
+			{
+				"type"			: "simple_action",
+				"is_primary"	: "yes",
+				"name"			: "move_body",
+				"parameters"	:
+					[
+						{
+							"type"		:	"mandatory_parameter",
+							"name"		: 	"parameter_landmark",
+							"landmark_type"	:	"Place_Landmark",
+							"landmark_id" : 40,
+							"pose" :	[0.0,0.0,-0.38268,0.92388]
+						}
+					]
+			},
+			{
+				"type"			: "simple_action",
+				"is_primary"	: "yes",
+				"name"			: "move_body",
+				"parameters"	:
+					[
+						{
+							"type"		:	"mandatory_parameter",
+							"name"		: 	"parameter_landmark",
+							"landmark_type"	:	"Place_Landmark",
+							"landmark_id" : 44,
+							"pose" :	[0.0,0.0,0.0,1.0]
+						}
+					]
+			},
+			{
+				"type"			: "simple_action",
+				"is_primary"	: "yes",
+				"name"			: "move_body",
+				"parameters"	:
+					[
+						{
+							"type"		:	"mandatory_parameter",
+							"name"		: 	"parameter_landmark",
+							"landmark_type"	:	"Place_Landmark",
+							"landmark_id" : 44,
+							"pose" :	[0.0,0.0,1.0,0.0]
+						}
+					]
+			},
+			{
+				"type"			: "simple_action",
+				"is_primary"	: "yes",
+				"name"			: "move_body",
+				"parameters"	:
+					[
+						{
+							"type"		:	"mandatory_parameter",
+							"name"		: 	"parameter_landmark",
+							"landmark_type"	:	"Place_Landmark",
+							"landmark_id" : 40,
+							"pose" :	[0.0,0.0,1.0,0.0]
+						}
+					]
+			},
+			{
+				"type"			: "simple_action",
+				"is_primary"	: "yes",
+				"name"			: "move_body",
+				"parameters"	:
+					[
+						{
+							"type"		:	"mandatory_parameter",
+							"name"		: 	"parameter_landmark",
+							"landmark_type"	:	"Place_Landmark",
+							"landmark_id" : 31,
+							"pose" :	[0.0,0.0,0.70711,-0.70711]
+						}
+					]
+			}	 
+	 ]
+}

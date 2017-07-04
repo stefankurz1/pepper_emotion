@@ -1,0 +1,4 @@
+<launch>
+	<node pkg="theatre_bot" type="emotion_model_node" name="emotion_model_node">
+	</node>
+</launch>

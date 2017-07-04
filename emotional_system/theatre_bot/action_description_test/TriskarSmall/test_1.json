@@ -1,0 +1,225 @@
+{
+	"type"			:	"serial_context",
+	"emotion_synch"	:	"no",
+	"action_synch"	:	"yes",
+	"is_primary"	:	"yes",
+	"information"	:	"",		
+	"actions"		:
+	 [
+	 	{
+				"type"			:	"parallel_context",
+				"emotion_synch"	:	"yes",
+				"action_synch"	:	"yes",
+				"is_primary"	:	"yes",
+				"information"	:	"",		
+				"actions"		:
+	 			[
+					{
+						"type"			: "simple_action",
+						"is_primary"	: "yes",
+						"name"			: "move_body",
+						"parameters"	:
+							[
+								{
+									"type"		:	"mandatory_parameter",
+									"name"		: 	"parameter_landmark",
+									"landmark_type"	:	"Place_Landmark",
+									"landmark_id" : 0
+								}
+							]
+					},
+					{
+						"type"			: "simple_action",
+						"is_primary"	: "no",
+						"name"			: "oscillate_torso",
+						"parameters"	:
+							[
+								{
+									"type"		:	"mandatory_parameter",
+									"name"		: "parameter_amplitude",
+									"amplitude"	:	[0.2,0,0]
+								}
+							]
+					},
+				{
+					"type"			: "simple_action",
+					"is_primary"	: "no",
+					"name"			: "move_shoulder",
+					"parameters"	:
+						[
+							{
+								"type"		:	"mandatory_parameter",
+								"name"		: "parameter_amplitude",
+								"amplitude"	:	[0.2,0,0]
+							}
+						]
+				}
+		 	]
+		},
+	 	{
+				"type"			:	"parallel_context",
+				"emotion_synch"	:	"yes",
+				"action_synch"	:	"yes",
+				"is_primary"	:	"yes",
+				"information"	:	"",		
+				"actions"		:
+	 			[
+					{
+						"type"			: "simple_action",
+						"is_primary"	: "yes",
+						"name"			: "move_body",
+						"parameters"	:
+							[
+								{
+									"type"		:	"mandatory_parameter",
+									"name"		: 	"parameter_landmark",
+									"landmark_type"	:	"Place_Landmark",
+									"landmark_id" : 9
+								}
+							]
+					},
+					{
+						"type"			: "simple_action",
+						"is_primary"	: "no",
+						"name"			: "move_torso",
+						"parameters"	:
+							[
+								{
+									"type"		:	"mandatory_parameter",
+									"name"		: "parameter_amplitude",
+									"amplitude"	:	[0.2,0,0]
+								}
+							]
+					},
+				{
+					"type"			: "simple_action",
+					"is_primary"	: "no",
+					"name"			: "oscillate_shoulder",
+					"parameters"	:
+						[
+							{
+								"type"		:	"mandatory_parameter",
+								"name"		: "parameter_amplitude",
+								"amplitude"	:	[0.2,0,0]
+							}
+						]
+				}
+		 	]
+		},
+	 	{
+				"type"			:	"parallel_context",
+				"emotion_synch"	:	"yes",
+				"action_synch"	:	"yes",
+				"is_primary"	:	"yes",
+				"information"	:	"",		
+				"actions"		:
+	 			[
+					{
+						"type"			: "simple_action",
+						"is_primary"	: "yes",
+						"name"			: "move_body",
+						"parameters"	:
+							[
+								{
+									"type"		:	"mandatory_parameter",
+									"name"		: 	"parameter_landmark",
+									"landmark_type"	:	"Place_Landmark",
+									"landmark_id" : 11
+								}
+							]
+					},
+					{
+						"type"			: "simple_action",
+						"is_primary"	: "no",
+						"name"			: "move_torso",
+						"parameters"	:
+							[
+								{
+									"type"		:	"mandatory_parameter",
+									"name"		: "parameter_amplitude",
+									"amplitude"	:	[-0.2,0,0]
+								}
+							]
+					},
+				{
+					"type"			: "simple_action",
+					"is_primary"	: "no",
+					"name"			: "move_shoulder",
+					"parameters"	:
+						[
+							{
+								"type"		:	"mandatory_parameter",
+								"name"		: "parameter_amplitude",
+								"amplitude"	:	[-0.2,0,0]
+							}
+						]
+				}
+		 	]
+		},
+			{
+				"type"			: "simple_action",
+				"is_primary"	: "yes",
+				"name"			: "do_nothing",
+				"parameters"	:
+					[
+						{
+							"type"		:	"mandatory_parameter",
+							"name" : "parameter_time",
+							"time" : 5,
+			  				"emotional_time": 1.5,
+			  				"repeat_emotional": "no"
+						}
+					]
+			},
+	 	{
+				"type"			:	"parallel_context",
+				"emotion_synch"	:	"yes",
+				"action_synch"	:	"yes",
+				"is_primary"	:	"yes",
+				"information"	:	"",		
+				"actions"		:
+	 			[
+					{
+						"type"			: "simple_action",
+						"is_primary"	: "yes",
+						"name"			: "move_body",
+						"parameters"	:
+							[
+								{
+									"type"		:	"mandatory_parameter",
+									"name"		: 	"parameter_landmark",
+									"landmark_type"	:	"Place_Landmark",
+									"landmark_id" : 5
+								}
+							]
+					},
+					{
+						"type"			: "simple_action",
+						"is_primary"	: "no",
+						"name"			: "oscillate_torso",
+						"parameters"	:
+							[
+								{
+									"type"		:	"mandatory_parameter",
+									"name"		: "parameter_amplitude",
+									"amplitude"	:	[0.2,0,0]
+								}
+							]
+					},
+				{
+					"type"			: "simple_action",
+					"is_primary"	: "no",
+					"name"			: "oscillate_shoulder",
+					"parameters"	:
+						[
+							{
+								"type"		:	"mandatory_parameter",
+								"name"		: "parameter_amplitude",
+								"amplitude"	:	[0.2,0,0]
+							}
+						]
+				}
+		 	]
+		}
+	 ]
+}

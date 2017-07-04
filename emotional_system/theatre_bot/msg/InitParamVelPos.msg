@@ -1,0 +1,5 @@
+float32 initial_x
+float32 initial_y
+float32 initial_theta
+float32 linear_velocity
+float32 angular_velocity

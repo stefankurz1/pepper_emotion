@@ -1,0 +1,14 @@
+{
+	"type": "simple_action",
+	"name": "move_body",
+	"is_primary": "yes",
+	"parameters":
+		[
+			{
+				"type"		:	"mandatory_parameter",
+				"name"		:	"parameter_point",
+				"pose" 		:	[0,0,0,1],
+				"point" 	:	[0,0,0]
+			}
+		]
+}

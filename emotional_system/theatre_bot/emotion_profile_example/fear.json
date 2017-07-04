@@ -1,0 +1,123 @@
+{
+	"type" 			: 	"movement_parameter",
+	"reference" 	: 	1000.0,
+	"emotion"		:	"Fear",
+	"observation"	:	"Test the emotion changes in the new system",
+	"move_body"		:
+		{
+			"description"	:
+				{
+					"emotionProfileAction"		:	"move_body",
+					"emotionProfileEmotion"		:	"fear",
+					"type"						:	"movement_parameter"
+				},
+			"actions"		:
+				{
+					"move_body":
+						{
+							"reference"		:	600.0,
+							"repetition"	:	"no",
+							"parameters"	:
+								[
+									{"time":2.5,"space":500.0},
+									{"time":1.25,"space":500.0},
+									{"time":2.5,"space":500.0},
+									{"time":1.25,"space":500.0}
+								]							
+						},
+				"oscillate_body":
+					{
+						"reference": 1.8,
+						"repetition":"no",
+						"parameters":
+							[
+								{"time":0.08726666122674942,"space":0.4},
+								{"time":0.08726666122674942,"space":0.1},
+								{"time":0.1,"space":0.6}
+							]
+						},
+		"oscillate_shoulder":
+			{
+				"reference": 1.8,
+				"repetition":"no",
+				"parameters":
+					[
+						{"time":0.5,"space":0.2},{"time":0.2,"space":0.1},{"time":0.1,"space":0.4}
+					]
+			},
+		"oscillate_torso":
+			{
+				"reference": 1.8,
+				"repetition":"no",
+				"parameters":	
+					[
+						[
+							{"time":0.5,"space":0.2},{"time":0.2,"space":0.1},{"time":0.1,"space":0.4}],
+						[	{"time":2.5,"space":0.2}],
+						[	{"time":0.0,"space":0.0}
+						]
+					]				
+			}
+				}
+		},
+	"move_torso":
+		{
+		"description":
+			{
+			"emotionProfileAction":"move_torso",
+			"emotionProfileEmotion":"fear",
+			"type":"movement_parameter"
+			},
+		"actions":
+			{
+			"move_torso":
+				{
+					"reference": 1.8,
+					"repetition":"no",
+					"parameters":	
+						[
+							{"time":0.2,"space":-0.5}
+						]
+				}
+			}
+		},
+	"oscillate_shoulder":
+		{
+		"description":
+			{
+			"emotionProfileAction":"oscillate_shoulder",
+			"emotionProfileEmotion":"fear",
+			"type":"movement_parameter"
+			},
+		"actions":
+			{
+			"oscillate_shoulder":
+				{
+					"reference": 0.5,
+					"repetition":"no",
+					"parameters":
+						[
+							{"time":0.05,"space":0.236000061035156}
+						]
+				},
+			"move_shoulder":
+				{
+					"reference": 1.0,
+					"repetition":"no",
+					"parameters":
+						[
+						{"time":0.0,"space":0.0}
+						]
+				},
+			"move_torso":
+				{
+					"reference": 0.1,
+					"repetition":"no",
+					"parameters":	
+						[
+							{"time":0.2,"space":-0.5}
+						]
+				}
+			}
+	} 
+}

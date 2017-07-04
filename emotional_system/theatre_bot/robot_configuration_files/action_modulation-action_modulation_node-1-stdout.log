@@ -1,0 +1,1538 @@
+Emotions: 
+angry_move_body, 
+fear_move_body, 
+happy_move_body, 
+relaxed_move_body, 
+sad_move_body, 
+surprise_move_body, 
+Actions: 
+do_nothing, 
+move_body, 
+move_shoulder, 
+move_torso, 
+oscillate_body, 
+oscillate_shoulder, 
+oscillate_torso, 
+speak, 
+walk, 
+[0m[ INFO] [1442595839.111121762]: action modulation ready[0m
+[0m[ INFO] [1442595851.876195143]: the action:-stop-[0m
+actions to finish: [0m[ INFO] [1442595852.304320226]: the action:-{
+	"type"			:	"serial_context",
+	"emotion_synch"	:	"yes",
+	"action_synch"	:	"yes",
+	"is_primary"	:	"yes",
+	"information"	:	"",		
+	"actions"		:
+	 [{
+				"type"			: "simple_action",
+				"is_primary"	: "yes",
+				"name"			: "move_body",
+				"parameters"	:
+					[
+						{
+							"type"		:	"mandatory_parameter",
+							"name"		: 	"parameter_landmark",
+							"landmark_type"	:	"Place_Landmark",
+							"landmark_id" : 72,
+							"pose" :	[0.0,0.0,0.0,1.0]
+						}
+					]
+			},
+			{
+				"type"			: "simple_action",
+				"is_primary"	: "yes",
+				"name"			: "move_body",
+				"parameters"	:
+					[
+						{
+							"type"		:	"mandatory_parameter",
+							"name"		: 	"parameter_landmark",
+							"landmark_type"	:	"Place_Landmark",
+							"landmark_id" : 64,
+							"pose" :	[0.0,0.0,-0.38268,0.92388]
+						}
+					]
+			},
+			{
+				"type"			: "simple_action",
+				"is_primary"	: "yes",
+				"name"			: "move_body",
+				"parameters"	:
+					[
+						{
+							"type"		:	"mandatory_parameter",
+							"name"		: 	"parameter_landmark",
+							"landmark_type"	:	"Place_Landmark",
+							"landmark_id" : 57,
+							"pose" :	[0.0,0.0,-0.38268,0.92388]
+						}
+					]
+			},
+			{
+				"type"			: "simple_action",
+				"is_primary"	: "yes",
+				"name"			: "move_body",
+				"parameters"	:
+					[
+						{
+							"type"		:	"mandatory_parameter",
+							"name"		: 	"parameter_landmark",
+							"landmark_type"	:	"Place_Landmark",
+							"landmark_id" : 40,
+							"pose" :	[0.0,0.0,-0.38268,0.92388]
+						}
+					]
+			},
+			{
+				"type"			: "simple_action",
+				"is_primary"	: "yes",
+				"name"			: "move_body",
+				"parameters"	:
+					[
+						{
+							"type"		:	"mandatory_parameter",
+							"name"		: 	"parameter_landmark",
+							"landmark_type"	:	"Place_Landmark",
+							"landmark_id" : 40,
+							"pose" :	[0.0,0.0,1.0,0.0]
+						}
+					]
+			},
+			{
+				"type"			: "simple_action",
+				"is_primary"	: "yes",
+				"name"			: "move_body",
+				"parameters"	:
+					[
+						{
+							"type"		:	"mandatory_parameter",
+							"name"		: 	"parameter_landmark",
+							"landmark_type"	:	"Place_Landmark",
+							"landmark_id" : 41,
+							"pose" :	[0.0,0.0,1.0,0.0]
+						}
+					]
+			},
+			{
+				"type"			: "simple_action",
+				"is_primary"	: "yes",
+				"name"			: "move_body",
+				"parameters"	:
+					[
+						{
+							"type"		:	"mandatory_parameter",
+							"name"		: 	"parameter_landmark",
+							"landmark_type"	:	"Place_Landmark",
+							"landmark_id" : 41,
+							"pose" :	[0.0,0.0,0.0,1.0]
+						}
+					]
+			},
+			{
+				"type"			: "simple_action",
+				"is_primary"	: "yes",
+				"name"			: "move_body",
+				"parameters"	:
+					[
+						{
+							"type"		:	"mandatory_parameter",
+							"name"		: 	"parameter_landmark",
+							"landmark_type"	:	"Place_Landmark",
+							"landmark_id" : 44,
+							"pose" :	[0.0,0.0,0.0,1.0]
+						}
+					]
+			},
+			{
+				"type"			: "simple_action",
+				"is_primary"	: "yes",
+				"name"			: "move_body",
+				"parameters"	:
+					[
+						{
+							"type"		:	"mandatory_parameter",
+							"name"		: 	"parameter_landmark",
+							"landmark_type"	:	"Place_Landmark",
+							"landmark_id" : 44,
+							"pose" :	[0.0,0.0,1.0,0.0]
+						}
+					]
+			},
+			{
+				"type"			: "simple_action",
+				"is_primary"	: "yes",
+				"name"			: "move_body",
+				"parameters"	:
+					[
+						{
+							"type"		:	"mandatory_parameter",
+							"name"		: 	"parameter_landmark",
+							"landmark_type"	:	"Place_Landmark",
+							"landmark_id" : 40,
+							"pose" :	[0.0,0.0,1.0,0.0]
+						}
+					]
+			},
+			{
+				"type"			: "simple_action",
+				"is_primary"	: "yes",
+				"name"			: "move_body",
+				"parameters"	:
+					[
+						{
+							"type"		:	"mandatory_parameter",
+							"name"		: 	"parameter_landmark",
+							"landmark_type"	:	"Place_Landmark",
+							"landmark_id" : 31,
+							"pose" :	[0.0,0.0,0.70711,-0.70711]
+						}
+					]
+			},
+			{
+				"type"			: "simple_action",
+				"is_primary"	: "yes",
+				"name"			: "move_body",
+				"parameters"	:
+					[
+						{
+							"type"		:	"mandatory_parameter",
+							"name"		: 	"parameter_landmark",
+							"landmark_type"	:	"Place_Landmark",
+							"landmark_id" : 28,
+							"pose" :	[0.0,0.0,0.70711,-0.70711]
+						}
+					]
+			}	,
+			{
+				"type"			: "simple_action",
+				"is_primary"	: "yes",
+				"name"			: "move_body",
+				"parameters"	:
+					[
+						{
+							"type"		:	"mandatory_parameter",
+							"name"		: 	"parameter_landmark",
+							"landmark_type"	:	"Place_Landmark",
+							"landmark_id" : 72,
+							"pose" :	[0.0,0.0,0.38268,-0.92388]
+						}
+					]
+			} 
+	 ]
+}
+-[0m
+Changing action
+Changing action
+Emotional Actions
+
+Mandatory Actions
+Action: move_body - 
+*
+* Context-action synch: 0, type: 2, emotion synch:0, primary: 1
+0xd6a20-0
+*---------------
+** Action - name: move_body, emotional 0, parameters: {"landmark_id":72,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0,1],"type":"mandatory_parameter"}
+, primary: 1
+**0xeaa68-0xd6a20
+** Emotion message {}
+*---------------
+** Action - name: move_body, emotional 0, parameters: {"landmark_id":64,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,-0.38268,0.92388],"type":"mandatory_parameter"}
+, primary: 1
+**0xead50-0xd6a20
+** Emotion message {}
+*---------------
+** Action - name: move_body, emotional 0, parameters: {"landmark_id":57,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,-0.38268,0.92388],"type":"mandatory_parameter"}
+, primary: 1
+**0xeae48-0xd6a20
+** Emotion message {}
+*---------------
+** Action - name: move_body, emotional 0, parameters: {"landmark_id":40,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,-0.38268,0.92388],"type":"mandatory_parameter"}
+, primary: 1
+**0xeaf88-0xd6a20
+** Emotion message {}
+*---------------
+** Action - name: move_body, emotional 0, parameters: {"landmark_id":40,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,1,0],"type":"mandatory_parameter"}
+, primary: 1
+**0xeb070-0xd6a20
+** Emotion message {}
+*---------------
+** Action - name: move_body, emotional 0, parameters: {"landmark_id":41,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,1,0],"type":"mandatory_parameter"}
+, primary: 1
+**0xeb168-0xd6a20
+** Emotion message {}
+*---------------
+** Action - name: move_body, emotional 0, parameters: {"landmark_id":41,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0,1],"type":"mandatory_parameter"}
+, primary: 1
+**0xeb2c0-0xd6a20
+** Emotion message {}
+*---------------
+** Action - name: move_body, emotional 0, parameters: {"landmark_id":44,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0,1],"type":"mandatory_parameter"}
+, primary: 1
+**0xeb1c0-0xd6a20
+** Emotion message {}
+*---------------
+** Action - name: move_body, emotional 0, parameters: {"landmark_id":44,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,1,0],"type":"mandatory_parameter"}
+, primary: 1
+**0xeaae8-0xd6a20
+** Emotion message {}
+*---------------
+** Action - name: move_body, emotional 0, parameters: {"landmark_id":40,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,1,0],"type":"mandatory_parameter"}
+, primary: 1
+**0xeb480-0xd6a20
+** Emotion message {}
+*---------------
+** Action - name: move_body, emotional 0, parameters: {"landmark_id":31,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0.70711,-0.70711],"type":"mandatory_parameter"}
+, primary: 1
+**0xeb620-0xd6a20
+** Emotion message {}
+*---------------
+** Action - name: move_body, emotional 0, parameters: {"landmark_id":28,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0.70711,-0.70711],"type":"mandatory_parameter"}
+, primary: 1
+**0xeb768-0xd6a20
+** Emotion message {}
+*---------------
+** Action - name: move_body, emotional 0, parameters: {"landmark_id":72,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0.38268,-0.92388],"type":"mandatory_parameter"}
+, primary: 1
+**0xeb8a0-0xd6a20
+** Emotion message {}
+*---------------
+*
+actions to finish: [0m[ INFO] [1442595852.310797726]: Sending action parameters move_body {"landmark_id":72,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0,1],"type":"mandatory_parameter"}
+[0m
+[0m[ INFO] [1442595852.311133101]: Sending emotions move_body {}[0m
+Synch move_body: action_finished
+Clearing action list
+Simple action move_body is primary= 1
+Synch sequential 
+Changing action
+Emotional Actions
+
+Mandatory Actions
+Action: move_body - 
+actions to finish: [0m[ INFO] [1442595856.388548686]: Sending action parameters move_body {"landmark_id":64,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,-0.38268,0.92388],"type":"mandatory_parameter"}
+[0m
+[0m[ INFO] [1442595856.388637145]: Sending emotions move_body {}[0m
+Synch move_body: action_finished
+Clearing action list
+Simple action move_body is primary= 1
+Synch sequential 
+Changing action
+Emotional Actions
+
+Mandatory Actions
+Action: move_body - 
+actions to finish: [0m[ INFO] [1442595857.345825687]: Sending action parameters move_body {"landmark_id":57,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,-0.38268,0.92388],"type":"mandatory_parameter"}
+[0m
+[0m[ INFO] [1442595857.345920520]: Sending emotions move_body {}[0m
+Synch move_body: action_finished
+Clearing action list
+Simple action move_body is primary= 1
+Synch sequential 
+Changing action
+Emotional Actions
+
+Mandatory Actions
+Action: move_body - 
+actions to finish: [0m[ INFO] [1442595861.106026730]: Sending action parameters move_body {"landmark_id":40,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,-0.38268,0.92388],"type":"mandatory_parameter"}
+[0m
+[0m[ INFO] [1442595861.106121189]: Sending emotions move_body {}[0m
+Synch move_body: action_finished
+Clearing action list
+Simple action move_body is primary= 1
+Synch sequential 
+Changing action
+Emotional Actions
+
+Mandatory Actions
+Action: move_body - 
+actions to finish: [0m[ INFO] [1442595863.166399023]: Sending action parameters move_body {"landmark_id":40,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,1,0],"type":"mandatory_parameter"}
+[0m
+[0m[ INFO] [1442595863.166491398]: Sending emotions move_body {}[0m
+Synch move_body: action_finished
+Clearing action list
+Simple action move_body is primary= 1
+Synch sequential 
+Changing action
+Emotional Actions
+
+Mandatory Actions
+Action: move_body - 
+actions to finish: [0m[ INFO] [1442595864.727609024]: Sending action parameters move_body {"landmark_id":41,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,1,0],"type":"mandatory_parameter"}
+[0m
+[0m[ INFO] [1442595864.727726899]: Sending emotions move_body {}[0m
+Synch move_body: action_finished
+Clearing action list
+Simple action move_body is primary= 1
+Synch sequential 
+Changing action
+Emotional Actions
+
+Mandatory Actions
+Action: move_body - 
+actions to finish: [0m[ INFO] [1442595865.587543733]: Sending action parameters move_body {"landmark_id":41,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0,1],"type":"mandatory_parameter"}
+[0m
+[0m[ INFO] [1442595865.587760733]: Sending emotions move_body {}[0m
+Synch move_body: action_finished
+Clearing action list
+Simple action move_body is primary= 1
+Synch sequential 
+Changing action
+Emotional Actions
+
+Mandatory Actions
+Action: move_body - 
+actions to finish: [0m[ INFO] [1442595870.381132485]: Sending action parameters move_body {"landmark_id":44,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0,1],"type":"mandatory_parameter"}
+[0m
+[0m[ INFO] [1442595870.381256651]: Sending emotions move_body {}[0m
+Synch move_body: action_finished
+Clearing action list
+Simple action move_body is primary= 1
+Synch sequential 
+Changing action
+Emotional Actions
+
+Mandatory Actions
+Action: move_body - 
+actions to finish: [0m[ INFO] [1442595873.288115986]: Sending action parameters move_body {"landmark_id":44,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,1,0],"type":"mandatory_parameter"}
+[0m
+[0m[ INFO] [1442595873.288213028]: Sending emotions move_body {}[0m
+Synch move_body: action_finished
+Clearing action list
+Simple action move_body is primary= 1
+Synch sequential 
+Changing action
+Emotional Actions
+
+Mandatory Actions
+Action: move_body - 
+actions to finish: [0m[ INFO] [1442595875.226936529]: Sending action parameters move_body {"landmark_id":40,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,1,0],"type":"mandatory_parameter"}
+[0m
+[0m[ INFO] [1442595875.227050112]: Sending emotions move_body {}[0m
+Synch move_body: action_finished
+Clearing action list
+Simple action move_body is primary= 1
+Synch sequential 
+Changing action
+Emotional Actions
+
+Mandatory Actions
+Action: move_body - 
+actions to finish: [0m[ INFO] [1442595878.466072739]: Sending action parameters move_body {"landmark_id":31,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0.70711,-0.70711],"type":"mandatory_parameter"}
+[0m
+[0m[ INFO] [1442595878.466161614]: Sending emotions move_body {}[0m
+Synch move_body: action_finished
+Clearing action list
+Simple action move_body is primary= 1
+Synch sequential 
+Changing action
+Emotional Actions
+
+Mandatory Actions
+Action: move_body - 
+actions to finish: [0m[ INFO] [1442595879.768283406]: Sending action parameters move_body {"landmark_id":28,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0.70711,-0.70711],"type":"mandatory_parameter"}
+[0m
+[0m[ INFO] [1442595879.768384448]: Sending emotions move_body {}[0m
+Synch move_body: action_finished
+Clearing action list
+Simple action move_body is primary= 1
+Synch sequential 
+Changing action
+Emotional Actions
+
+Mandatory Actions
+Action: move_body - 
+actions to finish: [0m[ INFO] [1442595882.225919699]: Sending action parameters move_body {"landmark_id":72,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0.38268,-0.92388],"type":"mandatory_parameter"}
+[0m
+[0m[ INFO] [1442595882.226017490]: Sending emotions move_body {}[0m
+Synch move_body: action_finished
+Clearing action list
+Simple action move_body is primary= 1
+Synch sequential 
+Emotional Actions
+
+Mandatory Actions
+
+actions to finish: [0m[ INFO] [1442595963.686972071]: Emotion happy, intensity 1.000000[0m
+Emotional Actions
+
+Mandatory Actions
+
+actions to finish: [0m[ INFO] [1442595966.301940531]: the action:-stop-[0m
+actions to finish: [0m[ INFO] [1442595967.528400823]: the action:-{
+	"type"			:	"serial_context",
+	"emotion_synch"	:	"yes",
+	"action_synch"	:	"yes",
+	"is_primary"	:	"yes",
+	"information"	:	"",		
+	"actions"		:
+	 [{
+				"type"			: "simple_action",
+				"is_primary"	: "yes",
+				"name"			: "move_body",
+				"parameters"	:
+					[
+						{
+							"type"		:	"mandatory_parameter",
+							"name"		: 	"parameter_landmark",
+							"landmark_type"	:	"Place_Landmark",
+							"landmark_id" : 72,
+							"pose" :	[0.0,0.0,0.0,1.0]
+						}
+					]
+			},
+			{
+				"type"			: "simple_action",
+				"is_primary"	: "yes",
+				"name"			: "move_body",
+				"parameters"	:
+					[
+						{
+							"type"		:	"mandatory_parameter",
+							"name"		: 	"parameter_landmark",
+							"landmark_type"	:	"Place_Landmark",
+							"landmark_id" : 64,
+							"pose" :	[0.0,0.0,-0.38268,0.92388]
+						}
+					]
+			},
+			{
+				"type"			: "simple_action",
+				"is_primary"	: "yes",
+				"name"			: "move_body",
+				"parameters"	:
+					[
+						{
+							"type"		:	"mandatory_parameter",
+							"name"		: 	"parameter_landmark",
+							"landmark_type"	:	"Place_Landmark",
+							"landmark_id" : 57,
+							"pose" :	[0.0,0.0,-0.38268,0.92388]
+						}
+					]
+			},
+			{
+				"type"			: "simple_action",
+				"is_primary"	: "yes",
+				"name"			: "move_body",
+				"parameters"	:
+					[
+						{
+							"type"		:	"mandatory_parameter",
+							"name"		: 	"parameter_landmark",
+							"landmark_type"	:	"Place_Landmark",
+							"landmark_id" : 40,
+							"pose" :	[0.0,0.0,-0.38268,0.92388]
+						}
+					]
+			},
+			{
+				"type"			: "simple_action",
+				"is_primary"	: "yes",
+				"name"			: "move_body",
+				"parameters"	:
+					[
+						{
+							"type"		:	"mandatory_parameter",
+							"name"		: 	"parameter_landmark",
+							"landmark_type"	:	"Place_Landmark",
+							"landmark_id" : 40,
+							"pose" :	[0.0,0.0,1.0,0.0]
+						}
+					]
+			},
+			{
+				"type"			: "simple_action",
+				"is_primary"	: "yes",
+				"name"			: "move_body",
+				"parameters"	:
+					[
+						{
+							"type"		:	"mandatory_parameter",
+							"name"		: 	"parameter_landmark",
+							"landmark_type"	:	"Place_Landmark",
+							"landmark_id" : 41,
+							"pose" :	[0.0,0.0,1.0,0.0]
+						}
+					]
+			},
+			{
+				"type"			: "simple_action",
+				"is_primary"	: "yes",
+				"name"			: "move_body",
+				"parameters"	:
+					[
+						{
+							"type"		:	"mandatory_parameter",
+							"name"		: 	"parameter_landmark",
+							"landmark_type"	:	"Place_Landmark",
+							"landmark_id" : 41,
+							"pose" :	[0.0,0.0,0.0,1.0]
+						}
+					]
+			},
+			{
+				"type"			: "simple_action",
+				"is_primary"	: "yes",
+				"name"			: "move_body",
+				"parameters"	:
+					[
+						{
+							"type"		:	"mandatory_parameter",
+							"name"		: 	"parameter_landmark",
+							"landmark_type"	:	"Place_Landmark",
+							"landmark_id" : 44,
+							"pose" :	[0.0,0.0,0.0,1.0]
+						}
+					]
+			},
+			{
+				"type"			: "simple_action",
+				"is_primary"	: "yes",
+				"name"			: "move_body",
+				"parameters"	:
+					[
+						{
+							"type"		:	"mandatory_parameter",
+							"name"		: 	"parameter_landmark",
+							"landmark_type"	:	"Place_Landmark",
+							"landmark_id" : 44,
+							"pose" :	[0.0,0.0,1.0,0.0]
+						}
+					]
+			},
+			{
+				"type"			: "simple_action",
+				"is_primary"	: "yes",
+				"name"			: "move_body",
+				"parameters"	:
+					[
+						{
+							"type"		:	"mandatory_parameter",
+							"name"		: 	"parameter_landmark",
+							"landmark_type"	:	"Place_Landmark",
+							"landmark_id" : 40,
+							"pose" :	[0.0,0.0,1.0,0.0]
+						}
+					]
+			},
+			{
+				"type"			: "simple_action",
+				"is_primary"	: "yes",
+				"name"			: "move_body",
+				"parameters"	:
+					[
+						{
+							"type"		:	"mandatory_parameter",
+							"name"		: 	"parameter_landmark",
+							"landmark_type"	:	"Place_Landmark",
+							"landmark_id" : 31,
+							"pose" :	[0.0,0.0,0.70711,-0.70711]
+						}
+					]
+			},
+			{
+				"type"			: "simple_action",
+				"is_primary"	: "yes",
+				"name"			: "move_body",
+				"parameters"	:
+					[
+						{
+							"type"		:	"mandatory_parameter",
+							"name"		: 	"parameter_landmark",
+							"landmark_type"	:	"Place_Landmark",
+							"landmark_id" : 28,
+							"pose" :	[0.0,0.0,0.70711,-0.70711]
+						}
+					]
+			}	,
+			{
+				"type"			: "simple_action",
+				"is_primary"	: "yes",
+				"name"			: "move_body",
+				"parameters"	:
+					[
+						{
+							"type"		:	"mandatory_parameter",
+							"name"		: 	"parameter_landmark",
+							"landmark_type"	:	"Place_Landmark",
+							"landmark_id" : 72,
+							"pose" :	[0.0,0.0,0.38268,-0.92388]
+						}
+					]
+			} 
+	 ]
+}
+-[0m
+Changing action
+Changing action
+Changing action
+Changing action
+Changing action
+Changing action
+Emotional Actions
+Action: move_shoulder - Action: move_torso - Action: oscillate_body - 
+Mandatory Actions
+Action: move_body - 
+*
+* Context-action synch: 0, type: 2, emotion synch:0, primary: 1
+0xd6a20-0
+*---------------
+**
+** Context-action synch: 1, type: 1, emotion synch:1, primary: 1
+**0xd17e8-0xd6a20
+**<<<<<<<<<<<<<<
+*** Action - name: move_body, emotional 0, parameters: {"landmark_id":72,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0,1],"type":"mandatory_parameter"}
+, primary: 1
+***0xec8d0-0xd17e8
+*** Emotion message {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":100,"velocity":500}
+,{"space":100,"velocity":650.0260009765625}
+]],"reference" :500}
+*** Parameter timing 0.2 parameter spacing 100
+*** Parameter timing 0.15384 parameter spacing 100
+**>>>>>>>>>>>>>
+*** Action - name: move_shoulder, emotional 1, parameters: , primary: 0
+***0xed700-0xd17e8
+*** Emotion message {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":0,"velocity":0}
+]],"reference" :1}
+*** Parameter timing 0 parameter spacing 0
+**>>>>>>>>>>>>>
+*** Action - name: move_torso, emotional 1, parameters: , primary: 0
+***0xed758-0xd17e8
+*** Emotion message {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":-0.1700000017881393,"velocity":0.1545454561710358}
+]],"reference" :0.1}
+*** Parameter timing 1.1 parameter spacing -0.17
+**>>>>>>>>>>>>>
+*** Action - name: oscillate_body, emotional 1, parameters: , primary: 0
+***0xed7b0-0xd17e8
+*** Emotion message {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":0.2617999911308289,"velocity":2.013846158981323}
+]],"reference" :1.5}
+*** Parameter timing 0.13 parameter spacing 0.2618
+**>>>>>>>>>>>>>
+**
+*---------------
+**
+** Context-action synch: 1, type: 1, emotion synch:1, primary: 1
+**0xed400-0xd6a20
+**<<<<<<<<<<<<<<
+*** Action - name: move_body, emotional 0, parameters: {"landmark_id":64,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,-0.38268,0.92388],"type":"mandatory_parameter"}
+, primary: 1
+***0xecbb8-0xed400
+*** Emotion message {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":100,"velocity":500}
+,{"space":100,"velocity":650.0260009765625}
+]],"reference" :500}
+*** Parameter timing 0.2 parameter spacing 100
+*** Parameter timing 0.15384 parameter spacing 100
+**>>>>>>>>>>>>>
+*** Action - name: move_shoulder, emotional 1, parameters: , primary: 0
+***0xcdd00-0xed400
+*** Emotion message {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":0,"velocity":0}
+]],"reference" :1}
+*** Parameter timing 0 parameter spacing 0
+**>>>>>>>>>>>>>
+*** Action - name: move_torso, emotional 1, parameters: , primary: 0
+***0xcdd58-0xed400
+*** Emotion message {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":-0.1700000017881393,"velocity":0.1545454561710358}
+]],"reference" :0.1}
+*** Parameter timing 1.1 parameter spacing -0.17
+**>>>>>>>>>>>>>
+*** Action - name: oscillate_body, emotional 1, parameters: , primary: 0
+***0xcddb0-0xed400
+*** Emotion message {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":0.2617999911308289,"velocity":2.013846158981323}
+]],"reference" :1.5}
+*** Parameter timing 0.13 parameter spacing 0.2618
+**>>>>>>>>>>>>>
+**
+*---------------
+**
+** Context-action synch: 1, type: 1, emotion synch:1, primary: 1
+**0xed340-0xd6a20
+**<<<<<<<<<<<<<<
+*** Action - name: move_body, emotional 0, parameters: {"landmark_id":57,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,-0.38268,0.92388],"type":"mandatory_parameter"}
+, primary: 1
+***0xeccb0-0xed340
+*** Emotion message {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":100,"velocity":500}
+,{"space":100,"velocity":650.0260009765625}
+]],"reference" :500}
+*** Parameter timing 0.2 parameter spacing 100
+*** Parameter timing 0.15384 parameter spacing 100
+**>>>>>>>>>>>>>
+*** Action - name: move_shoulder, emotional 1, parameters: , primary: 0
+***0xcde08-0xed340
+*** Emotion message {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":0,"velocity":0}
+]],"reference" :1}
+*** Parameter timing 0 parameter spacing 0
+**>>>>>>>>>>>>>
+*** Action - name: move_torso, emotional 1, parameters: , primary: 0
+***0xcde60-0xed340
+*** Emotion message {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":-0.1700000017881393,"velocity":0.1545454561710358}
+]],"reference" :0.1}
+*** Parameter timing 1.1 parameter spacing -0.17
+**>>>>>>>>>>>>>
+*** Action - name: oscillate_body, emotional 1, parameters: , primary: 0
+***0xd15e0-0xed340
+*** Emotion message {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":0.2617999911308289,"velocity":2.013846158981323}
+]],"reference" :1.5}
+*** Parameter timing 0.13 parameter spacing 0.2618
+**>>>>>>>>>>>>>
+**
+*---------------
+**
+** Context-action synch: 1, type: 1, emotion synch:1, primary: 1
+**0xd1638-0xd6a20
+**<<<<<<<<<<<<<<
+*** Action - name: move_body, emotional 0, parameters: {"landmark_id":40,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,-0.38268,0.92388],"type":"mandatory_parameter"}
+, primary: 1
+***0xecdb0-0xd1638
+*** Emotion message {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":100,"velocity":500}
+,{"space":100,"velocity":650.0260009765625}
+]],"reference" :500}
+*** Parameter timing 0.2 parameter spacing 100
+*** Parameter timing 0.15384 parameter spacing 100
+**>>>>>>>>>>>>>
+*** Action - name: move_shoulder, emotional 1, parameters: , primary: 0
+***0xd1668-0xd1638
+*** Emotion message {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":0,"velocity":0}
+]],"reference" :1}
+*** Parameter timing 0 parameter spacing 0
+**>>>>>>>>>>>>>
+*** Action - name: move_torso, emotional 1, parameters: , primary: 0
+***0xd16c0-0xd1638
+*** Emotion message {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":-0.1700000017881393,"velocity":0.1545454561710358}
+]],"reference" :0.1}
+*** Parameter timing 1.1 parameter spacing -0.17
+**>>>>>>>>>>>>>
+*** Action - name: oscillate_body, emotional 1, parameters: , primary: 0
+***0xd1718-0xd1638
+*** Emotion message {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":0.2617999911308289,"velocity":2.013846158981323}
+]],"reference" :1.5}
+*** Parameter timing 0.13 parameter spacing 0.2618
+**>>>>>>>>>>>>>
+**
+*---------------
+**
+** Context-action synch: 1, type: 1, emotion synch:1, primary: 1
+**0xd1770-0xd6a20
+**<<<<<<<<<<<<<<
+*** Action - name: move_body, emotional 0, parameters: {"landmark_id":40,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,1,0],"type":"mandatory_parameter"}
+, primary: 1
+***0xece98-0xd1770
+*** Emotion message {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":100,"velocity":500}
+,{"space":100,"velocity":650.0260009765625}
+]],"reference" :500}
+*** Parameter timing 0.2 parameter spacing 100
+*** Parameter timing 0.15384 parameter spacing 100
+**>>>>>>>>>>>>>
+*** Action - name: move_shoulder, emotional 1, parameters: , primary: 0
+***0xed8c8-0xd1770
+*** Emotion message {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":0,"velocity":0}
+]],"reference" :1}
+*** Parameter timing 0 parameter spacing 0
+**>>>>>>>>>>>>>
+*** Action - name: move_torso, emotional 1, parameters: , primary: 0
+***0xed920-0xd1770
+*** Emotion message {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":-0.1700000017881393,"velocity":0.1545454561710358}
+]],"reference" :0.1}
+*** Parameter timing 1.1 parameter spacing -0.17
+**>>>>>>>>>>>>>
+*** Action - name: oscillate_body, emotional 1, parameters: , primary: 0
+***0xed978-0xd1770
+*** Emotion message {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":0.2617999911308289,"velocity":2.013846158981323}
+]],"reference" :1.5}
+*** Parameter timing 0.13 parameter spacing 0.2618
+**>>>>>>>>>>>>>
+**
+*---------------
+**
+** Context-action synch: 1, type: 1, emotion synch:1, primary: 1
+**0xcdeb8-0xd6a20
+**<<<<<<<<<<<<<<
+*** Action - name: move_body, emotional 0, parameters: {"landmark_id":41,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,1,0],"type":"mandatory_parameter"}
+, primary: 1
+***0xecfd0-0xcdeb8
+*** Emotion message {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":100,"velocity":500}
+,{"space":100,"velocity":650.0260009765625}
+]],"reference" :500}
+*** Parameter timing 0.2 parameter spacing 100
+*** Parameter timing 0.15384 parameter spacing 100
+**>>>>>>>>>>>>>
+*** Action - name: move_shoulder, emotional 1, parameters: , primary: 0
+***0xed9d0-0xcdeb8
+*** Emotion message {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":0,"velocity":0}
+]],"reference" :1}
+*** Parameter timing 0 parameter spacing 0
+**>>>>>>>>>>>>>
+*** Action - name: move_torso, emotional 1, parameters: , primary: 0
+***0xeda28-0xcdeb8
+*** Emotion message {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":-0.1700000017881393,"velocity":0.1545454561710358}
+]],"reference" :0.1}
+*** Parameter timing 1.1 parameter spacing -0.17
+**>>>>>>>>>>>>>
+*** Action - name: oscillate_body, emotional 1, parameters: , primary: 0
+***0xeda80-0xcdeb8
+*** Emotion message {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":0.2617999911308289,"velocity":2.013846158981323}
+]],"reference" :1.5}
+*** Parameter timing 0.13 parameter spacing 0.2618
+**>>>>>>>>>>>>>
+**
+*---------------
+**
+** Context-action synch: 1, type: 1, emotion synch:1, primary: 1
+**0xd17a0-0xd6a20
+**<<<<<<<<<<<<<<
+*** Action - name: move_body, emotional 0, parameters: {"landmark_id":41,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0,1],"type":"mandatory_parameter"}
+, primary: 1
+***0xed0d8-0xd17a0
+*** Emotion message {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":100,"velocity":500}
+,{"space":100,"velocity":650.0260009765625}
+]],"reference" :500}
+*** Parameter timing 0.2 parameter spacing 100
+*** Parameter timing 0.15384 parameter spacing 100
+**>>>>>>>>>>>>>
+*** Action - name: move_shoulder, emotional 1, parameters: , primary: 0
+***0xedad8-0xd17a0
+*** Emotion message {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":0,"velocity":0}
+]],"reference" :1}
+*** Parameter timing 0 parameter spacing 0
+**>>>>>>>>>>>>>
+*** Action - name: move_torso, emotional 1, parameters: , primary: 0
+***0xedb30-0xd17a0
+*** Emotion message {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":-0.1700000017881393,"velocity":0.1545454561710358}
+]],"reference" :0.1}
+*** Parameter timing 1.1 parameter spacing -0.17
+**>>>>>>>>>>>>>
+*** Action - name: oscillate_body, emotional 1, parameters: , primary: 0
+***0xedb88-0xd17a0
+*** Emotion message {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":0.2617999911308289,"velocity":2.013846158981323}
+]],"reference" :1.5}
+*** Parameter timing 0.13 parameter spacing 0.2618
+**>>>>>>>>>>>>>
+**
+*---------------
+**
+** Context-action synch: 1, type: 1, emotion synch:1, primary: 1
+**0xedbe0-0xd6a20
+**<<<<<<<<<<<<<<
+*** Action - name: move_body, emotional 0, parameters: {"landmark_id":44,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0,1],"type":"mandatory_parameter"}
+, primary: 1
+***0xec938-0xedbe0
+*** Emotion message {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":100,"velocity":500}
+,{"space":100,"velocity":650.0260009765625}
+]],"reference" :500}
+*** Parameter timing 0.2 parameter spacing 100
+*** Parameter timing 0.15384 parameter spacing 100
+**>>>>>>>>>>>>>
+*** Action - name: move_shoulder, emotional 1, parameters: , primary: 0
+***0xedc10-0xedbe0
+*** Emotion message {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":0,"velocity":0}
+]],"reference" :1}
+*** Parameter timing 0 parameter spacing 0
+**>>>>>>>>>>>>>
+*** Action - name: move_torso, emotional 1, parameters: , primary: 0
+***0xedc68-0xedbe0
+*** Emotion message {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":-0.1700000017881393,"velocity":0.1545454561710358}
+]],"reference" :0.1}
+*** Parameter timing 1.1 parameter spacing -0.17
+**>>>>>>>>>>>>>
+*** Action - name: oscillate_body, emotional 1, parameters: , primary: 0
+***0xedcc0-0xedbe0
+*** Emotion message {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":0.2617999911308289,"velocity":2.013846158981323}
+]],"reference" :1.5}
+*** Parameter timing 0.13 parameter spacing 0.2618
+**>>>>>>>>>>>>>
+**
+*---------------
+**
+** Context-action synch: 1, type: 1, emotion synch:1, primary: 1
+**0xedd18-0xd6a20
+**<<<<<<<<<<<<<<
+*** Action - name: move_body, emotional 0, parameters: {"landmark_id":44,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,1,0],"type":"mandatory_parameter"}
+, primary: 1
+***0xed1e0-0xedd18
+*** Emotion message {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":100,"velocity":500}
+,{"space":100,"velocity":650.0260009765625}
+]],"reference" :500}
+*** Parameter timing 0.2 parameter spacing 100
+*** Parameter timing 0.15384 parameter spacing 100
+**>>>>>>>>>>>>>
+*** Action - name: move_shoulder, emotional 1, parameters: , primary: 0
+***0xedd48-0xedd18
+*** Emotion message {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":0,"velocity":0}
+]],"reference" :1}
+*** Parameter timing 0 parameter spacing 0
+**>>>>>>>>>>>>>
+*** Action - name: move_torso, emotional 1, parameters: , primary: 0
+***0xedda0-0xedd18
+*** Emotion message {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":-0.1700000017881393,"velocity":0.1545454561710358}
+]],"reference" :0.1}
+*** Parameter timing 1.1 parameter spacing -0.17
+**>>>>>>>>>>>>>
+*** Action - name: oscillate_body, emotional 1, parameters: , primary: 0
+***0xeddf8-0xedd18
+*** Emotion message {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":0.2617999911308289,"velocity":2.013846158981323}
+]],"reference" :1.5}
+*** Parameter timing 0.13 parameter spacing 0.2618
+**>>>>>>>>>>>>>
+**
+*---------------
+**
+** Context-action synch: 1, type: 1, emotion synch:1, primary: 1
+**0xede50-0xd6a20
+**<<<<<<<<<<<<<<
+*** Action - name: move_body, emotional 0, parameters: {"landmark_id":40,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,1,0],"type":"mandatory_parameter"}
+, primary: 1
+***0xec9d8-0xede50
+*** Emotion message {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":100,"velocity":500}
+,{"space":100,"velocity":650.0260009765625}
+]],"reference" :500}
+*** Parameter timing 0.2 parameter spacing 100
+*** Parameter timing 0.15384 parameter spacing 100
+**>>>>>>>>>>>>>
+*** Action - name: move_shoulder, emotional 1, parameters: , primary: 0
+***0xede80-0xede50
+*** Emotion message {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":0,"velocity":0}
+]],"reference" :1}
+*** Parameter timing 0 parameter spacing 0
+**>>>>>>>>>>>>>
+*** Action - name: move_torso, emotional 1, parameters: , primary: 0
+***0xeded8-0xede50
+*** Emotion message {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":-0.1700000017881393,"velocity":0.1545454561710358}
+]],"reference" :0.1}
+*** Parameter timing 1.1 parameter spacing -0.17
+**>>>>>>>>>>>>>
+*** Action - name: oscillate_body, emotional 1, parameters: , primary: 0
+***0xedf30-0xede50
+*** Emotion message {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":0.2617999911308289,"velocity":2.013846158981323}
+]],"reference" :1.5}
+*** Parameter timing 0.13 parameter spacing 0.2618
+**>>>>>>>>>>>>>
+**
+*---------------
+**
+** Context-action synch: 1, type: 1, emotion synch:1, primary: 1
+**0xedf88-0xd6a20
+**<<<<<<<<<<<<<<
+*** Action - name: move_body, emotional 0, parameters: {"landmark_id":31,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0.70711,-0.70711],"type":"mandatory_parameter"}
+, primary: 1
+***0xed468-0xedf88
+*** Emotion message {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":100,"velocity":500}
+,{"space":100,"velocity":650.0260009765625}
+]],"reference" :500}
+*** Parameter timing 0.2 parameter spacing 100
+*** Parameter timing 0.15384 parameter spacing 100
+**>>>>>>>>>>>>>
+*** Action - name: move_shoulder, emotional 1, parameters: , primary: 0
+***0xedfb8-0xedf88
+*** Emotion message {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":0,"velocity":0}
+]],"reference" :1}
+*** Parameter timing 0 parameter spacing 0
+**>>>>>>>>>>>>>
+*** Action - name: move_torso, emotional 1, parameters: , primary: 0
+***0xee010-0xedf88
+*** Emotion message {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":-0.1700000017881393,"velocity":0.1545454561710358}
+]],"reference" :0.1}
+*** Parameter timing 1.1 parameter spacing -0.17
+**>>>>>>>>>>>>>
+*** Action - name: oscillate_body, emotional 1, parameters: , primary: 0
+***0xee068-0xedf88
+*** Emotion message {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":0.2617999911308289,"velocity":2.013846158981323}
+]],"reference" :1.5}
+*** Parameter timing 0.13 parameter spacing 0.2618
+**>>>>>>>>>>>>>
+**
+*---------------
+**
+** Context-action synch: 1, type: 1, emotion synch:1, primary: 1
+**0xee0c0-0xd6a20
+**<<<<<<<<<<<<<<
+*** Action - name: move_body, emotional 0, parameters: {"landmark_id":28,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0.70711,-0.70711],"type":"mandatory_parameter"}
+, primary: 1
+***0xed5b0-0xee0c0
+*** Emotion message {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":100,"velocity":500}
+,{"space":100,"velocity":650.0260009765625}
+]],"reference" :500}
+*** Parameter timing 0.2 parameter spacing 100
+*** Parameter timing 0.15384 parameter spacing 100
+**>>>>>>>>>>>>>
+*** Action - name: move_shoulder, emotional 1, parameters: , primary: 0
+***0xee0f0-0xee0c0
+*** Emotion message {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":0,"velocity":0}
+]],"reference" :1}
+*** Parameter timing 0 parameter spacing 0
+**>>>>>>>>>>>>>
+*** Action - name: move_torso, emotional 1, parameters: , primary: 0
+***0xee148-0xee0c0
+*** Emotion message {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":-0.1700000017881393,"velocity":0.1545454561710358}
+]],"reference" :0.1}
+*** Parameter timing 1.1 parameter spacing -0.17
+**>>>>>>>>>>>>>
+*** Action - name: oscillate_body, emotional 1, parameters: , primary: 0
+***0xee1a0-0xee0c0
+*** Emotion message {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":0.2617999911308289,"velocity":2.013846158981323}
+]],"reference" :1.5}
+*** Parameter timing 0.13 parameter spacing 0.2618
+**>>>>>>>>>>>>>
+**
+*---------------
+**
+** Context-action synch: 1, type: 1, emotion synch:1, primary: 1
+**0xee1f8-0xd6a20
+**<<<<<<<<<<<<<<
+*** Action - name: move_body, emotional 0, parameters: {"landmark_id":72,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0.38268,-0.92388],"type":"mandatory_parameter"}
+, primary: 1
+***0xed6a8-0xee1f8
+*** Emotion message {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":100,"velocity":500}
+,{"space":100,"velocity":650.0260009765625}
+]],"reference" :500}
+*** Parameter timing 0.2 parameter spacing 100
+*** Parameter timing 0.15384 parameter spacing 100
+**>>>>>>>>>>>>>
+*** Action - name: move_shoulder, emotional 1, parameters: , primary: 0
+***0xee228-0xee1f8
+*** Emotion message {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":0,"velocity":0}
+]],"reference" :1}
+*** Parameter timing 0 parameter spacing 0
+**>>>>>>>>>>>>>
+*** Action - name: move_torso, emotional 1, parameters: , primary: 0
+***0xee280-0xee1f8
+*** Emotion message {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":-0.1700000017881393,"velocity":0.1545454561710358}
+]],"reference" :0.1}
+*** Parameter timing 1.1 parameter spacing -0.17
+**>>>>>>>>>>>>>
+*** Action - name: oscillate_body, emotional 1, parameters: , primary: 0
+***0xee2d8-0xee1f8
+*** Emotion message {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":0.2617999911308289,"velocity":2.013846158981323}
+]],"reference" :1.5}
+*** Parameter timing 0.13 parameter spacing 0.2618
+**>>>>>>>>>>>>>
+**
+*---------------
+*
+actions to finish: [0m[ INFO] [1442595967.547722864]: Sending action parameters move_body {"landmark_id":72,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0,1],"type":"mandatory_parameter"}
+[0m
+[0m[ INFO] [1442595967.548903698]: Sending action parameters move_shoulder [0m
+[0m[ INFO] [1442595967.550214656]: Sending action parameters move_torso [0m
+[0m[ INFO] [1442595967.551477698]: Sending action parameters oscillate_body [0m
+[0m[ INFO] [1442595967.552034281]: Sending emotions move_body {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":100,"velocity":500}
+,{"space":100,"velocity":650.0260009765625}
+]],"reference" :500}[0m
+[0m[ INFO] [1442595967.554004448]: Sending emotions move_shoulder {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":0,"velocity":0}
+]],"reference" :1}[0m
+[0m[ INFO] [1442595967.555480739]: Sending emotions move_torso {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":-0.1700000017881393,"velocity":0.1545454561710358}
+]],"reference" :0.1}[0m
+[0m[ INFO] [1442595967.556787531]: Sending emotions oscillate_body {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":0.2617999911308289,"velocity":2.013846158981323}
+]],"reference" :1.5}[0m
+Synch move_shoulder: action_finished
+Clearing action list
+Emotional Actions
+Action: move_shoulder - Action: move_torso - Action: oscillate_body - 
+Mandatory Actions
+Action: move_body - 
+actions to finish: Synch move_body: action_finished
+Clearing action list
+Simple action move_body is primary= 1
+Getting predecessor
+Synch sequential 
+Changing action
+Changing action
+Changing action
+Changing action
+Changing action
+Emotional Actions
+Action: move_shoulder - Action: move_torso - Action: oscillate_body - 
+Mandatory Actions
+Action: move_body - 
+actions to finish: move_shoulder 
+move_torso 
+oscillate_body 
+[0m[ INFO] [1442595968.036798823]: Sending action parameters move_body {"landmark_id":64,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,-0.38268,0.92388],"type":"mandatory_parameter"}
+[0m
+[0m[ INFO] [1442595968.036927281]: Sending action parameters move_shoulder [0m
+[0m[ INFO] [1442595968.037006531]: Sending action parameters move_torso [0m
+[0m[ INFO] [1442595968.037081573]: Sending action parameters oscillate_body [0m
+[0m[ INFO] [1442595968.037153031]: Sending emotions move_body {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":100,"velocity":500}
+,{"space":100,"velocity":650.0260009765625}
+]],"reference" :500}[0m
+[0m[ INFO] [1442595968.037232365]: Sending emotions move_shoulder {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":0,"velocity":0}
+]],"reference" :1}[0m
+[0m[ INFO] [1442595968.037310448]: Sending emotions move_torso {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":-0.1700000017881393,"velocity":0.1545454561710358}
+]],"reference" :0.1}[0m
+[0m[ INFO] [1442595968.037385156]: Sending emotions oscillate_body {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":0.2617999911308289,"velocity":2.013846158981323}
+]],"reference" :1.5}[0m
+Synch move_shoulder: action_finished
+Clearing action list
+Emotional Actions
+Action: move_shoulder - Action: move_torso - Action: oscillate_body - 
+Mandatory Actions
+Action: move_body - 
+actions to finish: Synch move_body: emotion_synch
+Emotional Actions
+Action: move_shoulder - Action: move_torso - Action: oscillate_body - 
+Mandatory Actions
+Action: move_body - 
+Synch move_shoulder: action_finished
+Clearing action list
+Emotional Actions
+Action: move_shoulder - Action: move_torso - Action: oscillate_body - 
+Mandatory Actions
+Action: move_body - 
+actions to finish: Synch move_torso: action_finished
+Clearing action list
+Emotional Actions
+Action: move_shoulder - Action: move_torso - Action: oscillate_body - 
+Mandatory Actions
+Action: move_body - 
+actions to finish: Synch move_body: action_finished
+Clearing action list
+Simple action move_body is primary= 1
+Getting predecessor
+Synch sequential 
+Changing action
+Changing action
+Changing action
+Changing action
+Changing action
+Emotional Actions
+Action: move_shoulder - Action: move_torso - Action: oscillate_body - 
+Mandatory Actions
+Action: move_body - 
+actions to finish: move_shoulder 
+move_torso 
+oscillate_body 
+[0m[ INFO] [1442595968.891863240]: Sending action parameters move_body {"landmark_id":57,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,-0.38268,0.92388],"type":"mandatory_parameter"}
+[0m
+[0m[ INFO] [1442595968.891985115]: Sending action parameters move_shoulder [0m
+[0m[ INFO] [1442595968.893779198]: Sending action parameters move_torso [0m
+[0m[ INFO] [1442595968.893901282]: Sending action parameters oscillate_body [0m
+[0m[ INFO] [1442595968.893986907]: Sending emotions move_body {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":100,"velocity":500}
+,{"space":100,"velocity":650.0260009765625}
+]],"reference" :500}[0m
+[0m[ INFO] [1442595968.894067698]: Sending emotions move_shoulder {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":0,"velocity":0}
+]],"reference" :1}[0m
+[0m[ INFO] [1442595968.894150198]: Sending emotions move_torso {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":-0.1700000017881393,"velocity":0.1545454561710358}
+]],"reference" :0.1}[0m
+[0m[ INFO] [1442595968.894236740]: Sending emotions oscillate_body {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":0.2617999911308289,"velocity":2.013846158981323}
+]],"reference" :1.5}[0m
+Synch move_torso: action_finished
+Clearing action list
+Emotional Actions
+Action: move_shoulder - Action: move_torso - Action: oscillate_body - 
+Mandatory Actions
+Action: move_body - 
+actions to finish: Synch move_shoulder: action_finished
+Clearing action list
+Emotional Actions
+Action: move_shoulder - Action: move_torso - Action: oscillate_body - 
+Mandatory Actions
+Action: move_body - 
+actions to finish: Synch move_body: action_finished
+Clearing action list
+Simple action move_body is primary= 1
+Getting predecessor
+Synch sequential 
+Changing action
+Changing action
+Changing action
+Changing action
+Changing action
+Emotional Actions
+Action: move_shoulder - Action: move_torso - Action: oscillate_body - 
+Mandatory Actions
+Action: move_body - 
+actions to finish: move_shoulder 
+move_torso 
+oscillate_body 
+[0m[ INFO] [1442595972.075486158]: Sending action parameters move_body {"landmark_id":40,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,-0.38268,0.92388],"type":"mandatory_parameter"}
+[0m
+[0m[ INFO] [1442595972.075609617]: Sending action parameters move_shoulder [0m
+[0m[ INFO] [1442595972.075720075]: Sending action parameters move_torso [0m
+[0m[ INFO] [1442595972.075805700]: Sending action parameters oscillate_body [0m
+[0m[ INFO] [1442595972.075883492]: Sending emotions move_body {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":100,"velocity":500}
+,{"space":100,"velocity":650.0260009765625}
+]],"reference" :500}[0m
+[0m[ INFO] [1442595972.075966158]: Sending emotions move_shoulder {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":0,"velocity":0}
+]],"reference" :1}[0m
+[0m[ INFO] [1442595972.076047742]: Sending emotions move_torso {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":-0.1700000017881393,"velocity":0.1545454561710358}
+]],"reference" :0.1}[0m
+[0m[ INFO] [1442595972.076138158]: Sending emotions oscillate_body {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":0.2617999911308289,"velocity":2.013846158981323}
+]],"reference" :1.5}[0m
+Synch move_shoulder: action_finished
+Clearing action list
+Emotional Actions
+Action: move_shoulder - Action: move_torso - Action: oscillate_body - 
+Mandatory Actions
+Action: move_body - 
+actions to finish: Synch move_torso: action_finished
+Clearing action list
+Emotional Actions
+Action: move_shoulder - Action: move_torso - Action: oscillate_body - 
+Mandatory Actions
+Action: move_body - 
+actions to finish: Synch move_body: action_finished
+Clearing action list
+Simple action move_body is primary= 1
+Getting predecessor
+Synch sequential 
+Changing action
+Changing action
+Changing action
+Changing action
+Changing action
+Emotional Actions
+Action: move_shoulder - Action: move_torso - Action: oscillate_body - 
+Mandatory Actions
+Action: move_body - 
+actions to finish: move_shoulder 
+move_torso 
+oscillate_body 
+[0m[ INFO] [1442595973.872632409]: Sending action parameters move_body {"landmark_id":40,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,1,0],"type":"mandatory_parameter"}
+[0m
+[0m[ INFO] [1442595973.872756201]: Sending action parameters move_shoulder [0m
+[0m[ INFO] [1442595973.872904826]: Sending action parameters move_torso [0m
+[0m[ INFO] [1442595973.872986576]: Sending action parameters oscillate_body [0m
+[0m[ INFO] [1442595973.873069617]: Sending emotions move_body {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":100,"velocity":500}
+,{"space":100,"velocity":650.0260009765625}
+]],"reference" :500}[0m
+[0m[ INFO] [1442595973.873156117]: Sending emotions move_shoulder {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":0,"velocity":0}
+]],"reference" :1}[0m
+[0m[ INFO] [1442595973.873240909]: Sending emotions move_torso {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":-0.1700000017881393,"velocity":0.1545454561710358}
+]],"reference" :0.1}[0m
+[0m[ INFO] [1442595973.873321367]: Sending emotions oscillate_body {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":0.2617999911308289,"velocity":2.013846158981323}
+]],"reference" :1.5}[0m
+Synch move_shoulder: action_finished
+Clearing action list
+Emotional Actions
+Action: move_shoulder - Action: move_torso - Action: oscillate_body - 
+Mandatory Actions
+Action: move_body - 
+actions to finish: Synch move_torso: action_finished
+Clearing action list
+Emotional Actions
+Action: move_shoulder - Action: move_torso - Action: oscillate_body - 
+Mandatory Actions
+Action: move_body - 
+actions to finish: Synch move_body: action_finished
+Clearing action list
+Simple action move_body is primary= 1
+Getting predecessor
+Synch sequential 
+Changing action
+Changing action
+Changing action
+Changing action
+Changing action
+Emotional Actions
+Action: move_shoulder - Action: move_torso - Action: oscillate_body - 
+Mandatory Actions
+Action: move_body - 
+actions to finish: move_shoulder 
+move_torso 
+oscillate_body 
+[0m[ INFO] [1442595975.491601743]: Sending action parameters move_body {"landmark_id":41,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,1,0],"type":"mandatory_parameter"}
+[0m
+[0m[ INFO] [1442595975.491721868]: Sending action parameters move_shoulder [0m
+[0m[ INFO] [1442595975.491803452]: Sending action parameters move_torso [0m
+[0m[ INFO] [1442595975.491880743]: Sending action parameters oscillate_body [0m
+[0m[ INFO] [1442595975.491957827]: Sending emotions move_body {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":100,"velocity":500}
+,{"space":100,"velocity":650.0260009765625}
+]],"reference" :500}[0m
+[0m[ INFO] [1442595975.494313535]: Sending emotions move_shoulder {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":0,"velocity":0}
+]],"reference" :1}[0m
+[0m[ INFO] [1442595975.494684743]: Sending emotions move_torso {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":-0.1700000017881393,"velocity":0.1545454561710358}
+]],"reference" :0.1}[0m
+[0m[ INFO] [1442595975.494815327]: Sending emotions oscillate_body {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":0.2617999911308289,"velocity":2.013846158981323}
+]],"reference" :1.5}[0m
+Synch move_shoulder: action_finished
+Clearing action list
+Emotional Actions
+Action: move_shoulder - Action: move_torso - Action: oscillate_body - 
+Mandatory Actions
+Action: move_body - 
+actions to finish: Synch move_torso: action_finished
+Clearing action list
+Emotional Actions
+Action: move_shoulder - Action: move_torso - Action: oscillate_body - 
+Mandatory Actions
+Action: move_body - 
+actions to finish: Synch move_body: action_finished
+Clearing action list
+Simple action move_body is primary= 1
+Getting predecessor
+Synch sequential 
+Changing action
+Changing action
+Changing action
+Changing action
+Changing action
+Emotional Actions
+Action: move_shoulder - Action: move_torso - Action: oscillate_body - 
+Mandatory Actions
+Action: move_body - 
+actions to finish: move_shoulder 
+move_torso 
+oscillate_body 
+[0m[ INFO] [1442595977.069472036]: Sending action parameters move_body {"landmark_id":41,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0,1],"type":"mandatory_parameter"}
+[0m
+[0m[ INFO] [1442595977.069676494]: Sending action parameters move_shoulder [0m
+[0m[ INFO] [1442595977.069775119]: Sending action parameters move_torso [0m
+[0m[ INFO] [1442595977.069861452]: Sending action parameters oscillate_body [0m
+[0m[ INFO] [1442595977.069942036]: Sending emotions move_body {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":100,"velocity":500}
+,{"space":100,"velocity":650.0260009765625}
+]],"reference" :500}[0m
+[0m[ INFO] [1442595977.070018161]: Sending emotions move_shoulder {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":0,"velocity":0}
+]],"reference" :1}[0m
+[0m[ INFO] [1442595977.070100994]: Sending emotions move_torso {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":-0.1700000017881393,"velocity":0.1545454561710358}
+]],"reference" :0.1}[0m
+[0m[ INFO] [1442595977.070179536]: Sending emotions oscillate_body {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":0.2617999911308289,"velocity":2.013846158981323}
+]],"reference" :1.5}[0m
+Synch move_body: emotion_synch
+Emotional Actions
+Action: move_shoulder - Action: move_torso - Action: oscillate_body - 
+Mandatory Actions
+Action: move_body - 
+Synch move_shoulder: action_finished
+Clearing action list
+Emotional Actions
+Action: move_shoulder - Action: move_torso - Action: oscillate_body - 
+Mandatory Actions
+Action: move_body - 
+actions to finish: Synch move_torso: action_finished
+Clearing action list
+Emotional Actions
+Action: move_shoulder - Action: move_torso - Action: oscillate_body - 
+Mandatory Actions
+Action: move_body - 
+actions to finish: Synch move_body: action_finished
+Clearing action list
+Simple action move_body is primary= 1
+Getting predecessor
+Synch sequential 
+Changing action
+Changing action
+Changing action
+Changing action
+Changing action
+Emotional Actions
+Action: move_shoulder - Action: move_torso - Action: oscillate_body - 
+Mandatory Actions
+Action: move_body - 
+actions to finish: move_shoulder 
+move_torso 
+oscillate_body 
+[0m[ INFO] [1442595979.033843745]: Sending action parameters move_body {"landmark_id":44,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0,1],"type":"mandatory_parameter"}
+[0m
+[0m[ INFO] [1442595979.033974120]: Sending action parameters move_shoulder [0m
+[0m[ INFO] [1442595979.034090662]: Sending action parameters move_torso [0m
+[0m[ INFO] [1442595979.034217078]: Sending action parameters oscillate_body [0m
+[0m[ INFO] [1442595979.034306787]: Sending emotions move_body {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":100,"velocity":500}
+,{"space":100,"velocity":650.0260009765625}
+]],"reference" :500}[0m
+[0m[ INFO] [1442595979.034396828]: Sending emotions move_shoulder {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":0,"velocity":0}
+]],"reference" :1}[0m
+[0m[ INFO] [1442595979.034532370]: Sending emotions move_torso {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":-0.1700000017881393,"velocity":0.1545454561710358}
+]],"reference" :0.1}[0m
+[0m[ INFO] [1442595979.034648120]: Sending emotions oscillate_body {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":0.2617999911308289,"velocity":2.013846158981323}
+]],"reference" :1.5}[0m
+Synch move_torso: action_finished
+Clearing action list
+Emotional Actions
+Action: move_shoulder - Action: move_torso - Action: oscillate_body - 
+Mandatory Actions
+Action: move_body - 
+actions to finish: Synch move_shoulder: action_finished
+Clearing action list
+Emotional Actions
+Action: move_shoulder - Action: move_torso - Action: oscillate_body - 
+Mandatory Actions
+Action: move_body - 
+actions to finish: Synch move_body: action_finished
+Clearing action list
+Simple action move_body is primary= 1
+Getting predecessor
+Synch sequential 
+Changing action
+Changing action
+Changing action
+Changing action
+Changing action
+Emotional Actions
+Action: move_shoulder - Action: move_torso - Action: oscillate_body - 
+Mandatory Actions
+Action: move_body - 
+actions to finish: move_shoulder 
+move_torso 
+oscillate_body 
+[0m[ INFO] [1442595979.353425287]: Sending action parameters move_body {"landmark_id":44,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,1,0],"type":"mandatory_parameter"}
+[0m
+[0m[ INFO] [1442595979.353536787]: Sending action parameters move_shoulder [0m
+[0m[ INFO] [1442595979.353645037]: Sending action parameters move_torso [0m
+[0m[ INFO] [1442595979.353761745]: Sending action parameters oscillate_body [0m
+[0m[ INFO] [1442595979.353850412]: Sending emotions move_body {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":100,"velocity":500}
+,{"space":100,"velocity":650.0260009765625}
+]],"reference" :500}[0m
+[0m[ INFO] [1442595979.353934662]: Sending emotions move_shoulder {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":0,"velocity":0}
+]],"reference" :1}[0m
+[0m[ INFO] [1442595979.354018162]: Sending emotions move_torso {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":-0.1700000017881393,"velocity":0.1545454561710358}
+]],"reference" :0.1}[0m
+[0m[ INFO] [1442595979.354096203]: Sending emotions oscillate_body {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":0.2617999911308289,"velocity":2.013846158981323}
+]],"reference" :1.5}[0m
+Synch move_body: action_finished
+Clearing action list
+Simple action move_body is primary= 1
+Getting predecessor
+Synch sequential 
+Changing action
+Changing action
+Changing action
+Changing action
+Changing action
+Emotional Actions
+Action: move_shoulder - Action: move_torso - Action: oscillate_body - 
+Mandatory Actions
+Action: move_body - 
+actions to finish: move_shoulder 
+move_torso 
+oscillate_body 
+[0m[ INFO] [1442595979.373871662]: Sending action parameters move_body {"landmark_id":40,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,1,0],"type":"mandatory_parameter"}
+[0m
+[0m[ INFO] [1442595979.374046162]: Sending action parameters move_shoulder [0m
+[0m[ INFO] [1442595979.374172537]: Sending action parameters move_torso [0m
+[0m[ INFO] [1442595979.374281537]: Sending action parameters oscillate_body [0m
+[0m[ INFO] [1442595979.374388453]: Sending emotions move_body {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":100,"velocity":500}
+,{"space":100,"velocity":650.0260009765625}
+]],"reference" :500}[0m
+[0m[ INFO] [1442595979.374517703]: Sending emotions move_shoulder {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":0,"velocity":0}
+]],"reference" :1}[0m
+[0m[ INFO] [1442595979.374660495]: Sending emotions move_torso {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":-0.1700000017881393,"velocity":0.1545454561710358}
+]],"reference" :0.1}[0m
+[0m[ INFO] [1442595979.374778203]: Sending emotions oscillate_body {"type":"movement_parameter","repetition" : "no","parameters": [[{"space":0.2617999911308289,"velocity":2.013846158981323}
+]],"reference" :1.5}[0m
+Synch move_torso: action_finished
+Clearing action list
+Emotional Actions
+Action: move_shoulder - Action: move_torso - Action: oscillate_body - 
+Mandatory Actions
+Action: move_body - 
+actions to finish: Synch move_shoulder: action_finished
+Clearing action list
+Emotional Actions
+Action: move_shoulder - Action: move_torso - Action: oscillate_body - 
+Mandatory Actions
+Action: move_body - 
+actions to finish: Synch move_body: emotion_synch
+Emotional Actions
+Action: move_shoulder - Action: move_torso - Action: oscillate_body - 
+Mandatory Actions
+Action: move_body - 
+Synch move_shoulder: action_finished
+Clearing action list
+Emotional Actions
+Action: move_shoulder - Action: move_torso - Action: oscillate_body - 
+Mandatory Actions
+Action: move_body - 
+actions to finish: Synch move_torso: action_finished
+Clearing action list
+Emotional Actions
+Action: move_shoulder - Action: move_torso - Action: oscillate_body - 
+Mandatory Actions
+Action: move_body - 

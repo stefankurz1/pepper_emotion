@@ -1,0 +1,39 @@
+{
+	"type"			:	"parallel_context",
+	"emotion_synch"	:	"yes",
+	"action_synch"	:	"yes",
+	"is_primary"	:	"yes",
+	"information"	:	"",		
+	"actions"		:
+	 [
+			{
+				"type"			: "simple_action",
+				"is_primary"	: "yes",
+				"name"			: "do_nothing",
+				"parameters"	:
+					[
+						{
+							"type"		:	"mandatory_parameter",
+							"name" : "parameter_time",
+							"time" : 5,
+			  				"emotional_time": 0.5,
+			  				"repeat_emotional": "yes"
+						}
+					]
+			},
+			{
+				"type"			: "simple_action",
+				"is_primary"	: "yes",
+				"name"			: "move_torso",
+				"parameters"	:
+					[
+					{
+							"type"		:	"mandatory_parameter",
+							"name"		: "parameter_amplitude",
+							"amplitude"	:	[0.5,0,0]
+						}
+					]
+			}
+	 
+	 ]
+}

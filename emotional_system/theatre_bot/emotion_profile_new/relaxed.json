@@ -1,0 +1,44 @@
+{
+	"emotion"		:	"relaxed",
+	"observation"	:	"",
+	"move_body"		:
+		{
+			"description"	:
+				{
+					"emotionProfileAction"	:	"move_body",
+					"emotionProfileEmotion"	:	"relaxed",
+					"type"					:	"movement_parameter"
+				},
+			"actions"	:
+				{
+					"move_body"	:
+						{
+							"reference"		:	500.0,
+							"repetition"	:	"no",
+							"parameters"	:
+								[
+									{"time":1.75,"space":300.0},
+									{"time":0.85,"space":300.0}
+								]
+						},
+					"move_torso"	:
+						{
+							"reference"		:	0.1,
+							"repetition"	:	"no",
+							"parameters"	:
+								[
+									{"time":1.0,"space":-0.17}
+								]
+						},
+					"move_shoulder"	:
+						{
+							"reference"		:	1.0,
+							"repetition"	:	"no",
+							"parameters"	:
+								[
+									{"time":0.0,"space":-0.17}
+								]
+						}
+				}
+		}
+}

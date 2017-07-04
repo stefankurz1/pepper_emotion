@@ -1,0 +1,53 @@
+/*
+ * NodeTorsoActionExecution.h
+ *
+ *  Created on: Jan 22, 2015
+ *      Author: julian
+ */
+
+#ifndef NODETORSOACTIONEXECUTION_H_
+#define NODETORSOACTIONEXECUTION_H_
+
+#include <string>
+#include <vector>
+
+#include "ros/ros.h"
+#include "theatre_bot/ActionExecutionMessage.h"
+#include "../src/json/json/json.h"
+#include "../src/Parsers/EmotionParser.h"
+#include "../src/PlatformActionControllers/TypePlatform.h"
+
+#include "../src/Parameters/MovementParameters/Amplitude.h"
+#include "../src/Parameters/EmotionalParameters/EmotionMovementParameter.h"
+
+#include "../src/PlatformActionControllers/Torso/KeeponTorso.h"
+#include "../src/PlatformActionControllers/Torso/TriskarSmallTorso.h"
+#include "../src/PlatformActionControllers/Torso/PepperTorso.h"
+
+
+class NodeTorsoActionExecution {
+public:
+	NodeTorsoActionExecution();
+	virtual ~NodeTorsoActionExecution();
+
+	void callbackNewActionParameters(const theatre_bot::ActionExecutionMessage::ConstPtr& msg);
+	void callbackNewEmotionParameters(const theatre_bot::ActionExecutionMessage::ConstPtr& msg);
+	void setPlatform(std::string platform, ros::NodeHandle *node);
+	void setPublisherActionSynch(ros::Publisher *pub_message);
+private:
+	TypePlatform platform;
+	EmotionParser emotion_parser;
+	ros::Publisher *pub_action_synch;
+	std::string action_name_move;
+	std::string action_name_oscillate;
+
+	//CallbackFunction
+	TorsoAction *torso_action;
+	void  callbackEmtyPlatform(Amplitude amplitude_parameter);
+	//Json reader function
+	bool parserJSON(std::string parameter, Amplitude *result);
+
+	bool parserEmotionJSON(std::string parameter, std::vector<EmotionMovementParameter> *result);
+};
+
+#endif /* NODETORSOACTIONEXECUTION_H_ */

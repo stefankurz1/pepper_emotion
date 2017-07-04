@@ -1,0 +1,41 @@
+{
+	"maximum_lenght_x" : 3000.0,
+	"maximum_lenght_y" : 3000.0,
+	"number_rectangles_x" : 9.0,
+	"number_rectangles_y" : 9.0,
+	"landmarks_localization":
+	[
+		{
+			"marker_id" : 1,
+			"marker_position": [0.0,0.0,0.0,0.0,0.0]
+		},
+		{
+			"marker_id" : 2,
+			"marker_position": [0.0,1500.0,-1.570809,0.0,0.0]
+		},
+		{
+			"marker_id" : 9,
+			"marker_position": [0.0,3000.0,-2.3562135,0.0,0.0]
+		},
+		{
+			"marker_id" : 10,
+			"marker_position": [1500.0,3000.0,3.141618,0.0,0.0]
+		},
+		{
+			"marker_id" : 11,
+			"marker_position": [3000.0,3000.0,2.3562135,0.0,0.0]
+		},
+		{
+			"marker_id" : 12,
+			"marker_position": [3000.0,1500.0,1.570809,0.0,0.0]
+		},
+		{
+			"marker_id" : 13,
+			"marker_position": [3000.0,0.0,0.7854045,0.0,0.0]
+		},
+		{
+			"marker_id" : 14,
+			"marker_position": [1500.0,0.0,0.0,0.0,0.0]
+		}
+	]
+}

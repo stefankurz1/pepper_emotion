@@ -1,0 +1,153 @@
+/*
+ * NodeShoulderActionExecution.cpp
+ *
+ *  Created on: Mar 1, 2015
+ *      Author: julian
+ */
+
+#include "NodeShoulderActionExecution.h"
+
+int main(int argc, char **argv){
+	NodeShoulderActionExecution node;
+	//TODO load this from parameters
+	std::string platform = "triskar_small";
+	ros::init(argc, argv, "shoulder_action_node");
+	ros::NodeHandle n("/action_modulation");
+	if(n.hasParam("desire_platform")){
+		n.getParam("desire_platform",platform);
+	}
+	ros::Subscriber sub = n.subscribe("change_action_parameters_shoulder", 10, &NodeShoulderActionExecution::callbackNewActionParameters, &node);
+	ros::Subscriber sub_emotion = n.subscribe("change_emotion_parameters_shoulder", 10, &NodeShoulderActionExecution::callbackNewEmotionParameters, &node);
+	ros::Publisher pub_action_synch = n.advertise<theatre_bot::ActionExecutionMessage>("action_execution_synch", 10);
+	node.setPublisherActionSynch(&pub_action_synch);
+	//The last thing to do
+	node.setPlatform(platform,&n);
+	ros::spin();
+	return 0;
+}
+
+NodeShoulderActionExecution::NodeShoulderActionExecution() {
+	shoulder_action = 0;
+	pub_action_synch = 0;
+	action_name_move = "move_shoulder";
+	action_name_oscillate = "oscillate_shoulder";
+}
+
+NodeShoulderActionExecution::~NodeShoulderActionExecution() {
+	// TODO Auto-generated destructor stub
+}
+
+void NodeShoulderActionExecution::callbackNewActionParameters(const theatre_bot::ActionExecutionMessage::ConstPtr& msg){
+	//std::cout << "Info " << msg->coming_to << " " << msg->message << std::endl;
+	if (shoulder_action != 0) {
+		if (msg->coming_to.compare(this->action_name_move) == 0) {
+			if (!msg->stop_action) {
+				Amplitude parameter;
+				if (this->parserJSON(msg->message, &parameter)) {
+					shoulder_action->MoveShoulderAction(parameter);
+				}
+			}else{
+				shoulder_action->stopMoveSholuderAction();
+			}
+		} else if (msg->coming_to.compare(this->action_name_oscillate) == 0) {
+			if (!msg->stop_action) {
+				Amplitude parameter;
+				if (this->parserJSON(msg->message, &parameter)) {
+					shoulder_action->OscillateShoulderAction(parameter);
+				}
+			}else{
+				shoulder_action->stopOscillateShoulderAction();
+			}
+		}
+	}
+}
+
+void NodeShoulderActionExecution::callbackNewEmotionParameters(const theatre_bot::ActionExecutionMessage::ConstPtr& msg){
+	//std::cout << "Info Emotional " << msg->coming_to << " " << msg->message << std::endl;
+	if (this->shoulder_action != 0) {
+		if (msg->coming_to.compare(this->action_name_move) == 0) {
+			if (msg->message.compare("emotion_synch") == 0) {
+				this->shoulder_action->synchEmotionMove();
+			} else{
+				std::vector<EmotionMovementParameter> vector_x, vector_y,
+						vector_z;
+				bool repetition = false;
+				bool done = emotion_parser.parse(msg->message, &vector_x,
+						&vector_y, &vector_z, &repetition);
+				if (done) {
+					this->shoulder_action->setEmotionalMoveShoulder(vector_x,
+							vector_y, vector_z, repetition);
+				}
+			}
+		} else if (msg->coming_to.compare(this->action_name_oscillate) == 0) {
+			if (msg->message.compare("emotion_synch") == 0) {
+				this->shoulder_action->synchEmotionOscillate();
+			} else{
+				std::vector<EmotionMovementParameter> vector_x, vector_y,
+						vector_z;
+				bool repetition = false;
+				bool done = emotion_parser.parse(msg->message, &vector_x,
+						&vector_y, &vector_z, &repetition);
+				if (done) {
+					this->shoulder_action->setEmotionalOscillateShoulder(vector_x,
+							vector_y, vector_z, repetition);
+				}
+			}
+		}
+	}
+}
+
+void NodeShoulderActionExecution::setPlatform(std::string platform, ros::NodeHandle *node){
+	if(platform.compare("triskar_small") == 0){
+		shoulder_action = new TriskarSmallShoulder;
+		shoulder_action->setPublisherAction(node);
+		shoulder_action->setActionMoveName(this->action_name_move);
+		shoulder_action->setActionOscillateName(this->action_name_oscillate);
+		shoulder_action->setPublisherActionSynch(this->pub_action_synch);
+		shoulder_action->setPublisherActionSynch(this->pub_action_synch);
+		shoulder_action->initSubscriberAction(node);
+	}
+	else if(platform.compare("pepper") == 0){
+		shoulder_action = new PepperShoulder;
+		shoulder_action->setPublisherAction(node);
+		shoulder_action->setActionMoveName(this->action_name_move);
+		shoulder_action->setActionOscillateName(this->action_name_oscillate);
+		shoulder_action->setPublisherActionSynch(this->pub_action_synch);
+		shoulder_action->setPublisherActionSynch(this->pub_action_synch);
+		shoulder_action->initSubscriberAction(node);	
+	}
+}
+
+void NodeShoulderActionExecution::setPublisherActionSynch(ros::Publisher *pub_message){
+	this->pub_action_synch = pub_message;
+}
+
+void NodeShoulderActionExecution::callbackEmtyPlatform(Amplitude amplitude_parameter){
+
+}
+
+//Json reader function
+bool NodeShoulderActionExecution::parserJSON(std::string parameter, Amplitude *result){
+	Json::Reader reader;
+	Json::Value root;
+	bool parsing_successful = reader.parse(parameter, root, false);
+	if(parsing_successful){
+		Json::Value temp_info = root.get("name","UTF-8");
+		if(temp_info.asString().compare("parameter_amplitude") == 0){
+			temp_info = root.get("amplitude","UTF-8");
+			if(!temp_info.isNull() && temp_info.isArray()){
+				std::vector<float> numbers;
+				for(int i = 0; i<temp_info.size(); ++i){
+					numbers.push_back(temp_info[i].asFloat());
+				}
+				if(numbers.size()==3){
+					result->setDistanceZ(numbers.at(2));
+					result->setDistanceY(numbers.at(1));
+					result->setDistanceX(numbers.at(0));
+					return true;
+				}
+			}
+		}
+	}
+	return false;
+}

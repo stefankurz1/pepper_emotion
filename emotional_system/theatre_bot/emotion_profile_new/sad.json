@@ -1,0 +1,45 @@
+{
+	"emotion"		:	"sad",
+	"observation"	:	"",
+	"move_body"		:
+		{
+			"description"	:
+				{
+					"emotionProfileAction"	:	"move_body",
+					"emotionProfileEmotion"	:	"sad",
+					"type"					:	"movement_parameter"
+				},
+			"actions"	:
+				{
+					"move_body"	:
+						{
+							"reference"		:	500.0,
+							"repetition"	:	"no",
+							"parameters"	:
+								[
+									{"time":2.0,"space":200.0},
+									{"time":1.19,"space":200.0},
+									{"time":0.8333,"space":200.0}
+								]
+						},
+					"move_torso"	:
+						{
+							"reference"		:	0.1,
+							"repetition"	:	"no",
+							"parameters"	:
+								[
+									{"time":0.0,"space":0.523}
+								]
+						},
+					"move_shoulder"	:
+						{
+							"reference"		:	1.0,
+							"repetition"	:	"no",
+							"parameters"	:
+								[
+									{"time":0.0,"space":0.52}
+								]
+						}
+				}
+		}
+}

@@ -1,0 +1,2 @@
+std_msgs/String emotion
+std_msgs/Float32 intensity

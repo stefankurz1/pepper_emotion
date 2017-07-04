@@ -1,0 +1,23 @@
+<launch>
+	<group ns="action_modulation">
+		<param name="desire_platform" value="pepper"/>
+		<param name="directory_emotions" value="$(find theatre_bot)/emotion_profile_pepper"/>
+		<param name="project_directory" value="$(find theatre_bot)"/>
+		<param name="character_profile" value="$(find theatre_bot)/character_description_emotion/character_one"/>
+		<remap from = "/action_modulation/change_emotion" to = "/change_emotion"/>
+		<remap from = "/action_modulation/change_action" to = "/change_action"/>
+		<remap from = "/action_modulation/pepper_shoulder" to = "/pepper_shoulder"/>
+		<remap from = "/action_modulation/pepper_torso" to = "/pepper_torso"/>
+		<remap from = "/action_modulation/pepper_body" to = "/pepper_body"/>
+		<remap from = "/action_modulation/emotional_move_synch" to = "/emotional_move_synch"/>
+		<remap from = "/action_modulation/action_move_synch" to = "/action_move_synch"/>
+		
+		<remap from = "/action_modulation/emotional_triskar" to = "/emotional_triskar"/>
+		<remap from = "/action_modulation/action_triskar" to = "/action_triskar"/>
+
+		<include file="$(find theatre_bot)/launch_xml/action_modulation_nodes.xml"/>
+		<include file="$(find theatre_bot)/launch_xml/gui.xml"/>
+	</group>
+		<node pkg="pepper_platform" type="pepper_emotion" name="pepper_node">
+		</node>
+</launch>

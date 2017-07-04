@@ -1,0 +1,84 @@
+{
+	"type"			:	"serial_context",
+	"information"	:	"speak and walk in parallel",
+	"is_primary"	:	"yes",
+	"actions"		:
+		[
+			{
+							"type"			: "simple_action",
+							"is_primary"	: "no",
+							"name"			: "move_torso",
+							"parameters"	:
+								[
+									{
+										"type"		:	"mandatory_parameter",
+										"name"		: "parameter_amplitude",
+										"amplitude"	:	[0,0,0]
+									}
+								]
+				},
+				{
+					"type"			: "simple_action",
+					"is_primary"	: "yes",
+					"name"			: "do_nothing",
+					"parameters"	:
+						[
+							{
+								"type"		:	"mandatory_parameter",
+								"name" : "parameter_time",
+								"time" : 5 
+							}
+						]
+				},			
+			{
+				"type"			:	"parallel_context",
+				"emotion_synch"	:	"no",
+				"action_synch"	:	"yes",
+				"is_primary"	:	"yes",
+				"information"	:	"",		
+				"actions"		:
+					[
+						{
+							"type"			: "simple_action",
+							"is_primary"	: "no",
+							"name"			: "oscillate_torso",
+							"parameters"	:
+								[
+									{
+										"type"		:	"mandatory_parameter",
+										"name"		: "parameter_amplitude",
+										"amplitude"	:	[0.5,0.2,0]
+									}
+								]
+						},
+						{
+							"type"			: "simple_action",
+							"is_primary"	: "yes",
+							"name"			: "do_nothing",
+							"parameters"	:
+								[
+									{
+										"type"		:	"mandatory_parameter",
+										"name" : "parameter_time",
+										"time" : 5 
+									}
+								]
+						}		
+					]
+			},
+			
+			{
+							"type"			: "simple_action",
+							"is_primary"	: "no",
+							"name"			: "move_torso",
+							"parameters"	:
+								[
+									{
+										"type"		:	"mandatory_parameter",
+										"name"		: "parameter_amplitude",
+										"amplitude"	:	[-0.5,0,0]
+									}
+								]
+				}
+		]
+	}

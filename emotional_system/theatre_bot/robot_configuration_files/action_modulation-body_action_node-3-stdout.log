@@ -1,0 +1,306 @@
+[0m[ INFO] [1442604168.912918239]: body action node is ready[0m
+Message move_body {"landmark_id":72,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0,1],"type":"mandatory_parameter"}
+ 0 1.4426e+09
+Message Emotionalmove_body {} 0 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":64,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,-0.38268,0.92388],"type":"mandatory_parameter"}
+ 1 1.4426e+09
+Message Emotionalmove_body {} 1 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":57,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,-0.38268,0.92388],"type":"mandatory_parameter"}
+ 2 1.4426e+09
+Message Emotionalmove_body {} 2 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":40,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,-0.38268,0.92388],"type":"mandatory_parameter"}
+ 3 1.4426e+09
+Message Emotionalmove_body {} 3 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":40,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,1,0],"type":"mandatory_parameter"}
+ 4 1.4426e+09
+Message Emotionalmove_body {} 4 1.4426e+09
+Message move_body stop 5 1.4426e+09
+[0m[ INFO] [1442604197.666122377]: action move body has finished[0m
+Message move_body {"landmark_id":72,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0,1],"type":"mandatory_parameter"}
+ 6 1.4426e+09
+Message Emotionalmove_body {} 5 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":64,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,-0.38268,0.92388],"type":"mandatory_parameter"}
+ 7 1.4426e+09
+Message Emotionalmove_body {} 6 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":57,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,-0.38268,0.92388],"type":"mandatory_parameter"}
+ 8 1.4426e+09
+Message Emotionalmove_body {} 7 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":40,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,-0.38268,0.92388],"type":"mandatory_parameter"}
+ 9 1.4426e+09
+Message Emotionalmove_body {} 8 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":40,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,1,0],"type":"mandatory_parameter"}
+ 10 1.4426e+09
+Message Emotionalmove_body {} 9 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":41,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,1,0],"type":"mandatory_parameter"}
+ 11 1.4426e+09
+Message Emotionalmove_body {} 10 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":41,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0,1],"type":"mandatory_parameter"}
+ 12 1.4426e+09
+Message Emotionalmove_body {} 11 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":44,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0,1],"type":"mandatory_parameter"}
+ 13 1.4426e+09
+Message Emotionalmove_body {} 12 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":44,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,1,0],"type":"mandatory_parameter"}
+ 14 1.4426e+09
+Message Emotionalmove_body {} 13 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":40,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,1,0],"type":"mandatory_parameter"}
+ 15 1.4426e+09
+Message Emotionalmove_body {} 14 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":31,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0.70711,-0.70711],"type":"mandatory_parameter"}
+ 16 1.4426e+09
+Message Emotionalmove_body {} 15 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":28,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0.70711,-0.70711],"type":"mandatory_parameter"}
+ 17 1.4426e+09
+Message Emotionalmove_body {} 16 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":72,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0.38268,-0.92388],"type":"mandatory_parameter"}
+ 18 1.4426e+09
+Message Emotionalmove_body {} 17 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":72,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0,1],"type":"mandatory_parameter"}
+ 19 1.4426e+09
+Message Emotionalmove_body {} 18 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":64,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,-0.38268,0.92388],"type":"mandatory_parameter"}
+ 20 1.4426e+09
+Message Emotionalmove_body {} 19 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":57,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,-0.38268,0.92388],"type":"mandatory_parameter"}
+ 21 1.4426e+09
+Message Emotionalmove_body {} 20 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":40,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,-0.38268,0.92388],"type":"mandatory_parameter"}
+ 22 1.4426e+09
+Message Emotionalmove_body {} 21 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":40,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,1,0],"type":"mandatory_parameter"}
+ 23 1.4426e+09
+Message Emotionalmove_body {} 22 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":41,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,1,0],"type":"mandatory_parameter"}
+ 24 1.4426e+09
+Message Emotionalmove_body {} 23 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":41,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0,1],"type":"mandatory_parameter"}
+ 25 1.4426e+09
+Message Emotionalmove_body {} 24 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":44,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0,1],"type":"mandatory_parameter"}
+ 26 1.4426e+09
+Message Emotionalmove_body {} 25 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":44,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,1,0],"type":"mandatory_parameter"}
+ 27 1.4426e+09
+Message Emotionalmove_body {} 26 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":40,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,1,0],"type":"mandatory_parameter"}
+ 28 1.4426e+09
+Message Emotionalmove_body {} 27 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":31,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0.70711,-0.70711],"type":"mandatory_parameter"}
+ 29 1.4426e+09
+Message Emotionalmove_body {} 28 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":28,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0.70711,-0.70711],"type":"mandatory_parameter"}
+ 30 1.4426e+09
+Message Emotionalmove_body {} 29 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":72,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0.38268,-0.92388],"type":"mandatory_parameter"}
+ 31 1.4426e+09
+Message Emotionalmove_body {} 30 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":72,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0,1],"type":"mandatory_parameter"}
+ 32 1.4426e+09
+Message Emotionalmove_body {} 31 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":64,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,-0.38268,0.92388],"type":"mandatory_parameter"}
+ 33 1.4426e+09
+Message Emotionalmove_body {} 32 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":57,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,-0.38268,0.92388],"type":"mandatory_parameter"}
+ 34 1.4426e+09
+Message Emotionalmove_body {} 33 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":40,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,-0.38268,0.92388],"type":"mandatory_parameter"}
+ 35 1.4426e+09
+Message Emotionalmove_body {} 34 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":40,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,1,0],"type":"mandatory_parameter"}
+ 36 1.4426e+09
+Message Emotionalmove_body {} 35 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":41,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,1,0],"type":"mandatory_parameter"}
+ 37 1.4426e+09
+Message Emotionalmove_body {} 36 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":41,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0,1],"type":"mandatory_parameter"}
+ 38 1.4426e+09
+Message Emotionalmove_body {} 37 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":44,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0,1],"type":"mandatory_parameter"}
+ 39 1.4426e+09
+Message Emotionalmove_body {} 38 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":44,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,1,0],"type":"mandatory_parameter"}
+ 40 1.4426e+09
+Message Emotionalmove_body {} 39 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":40,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,1,0],"type":"mandatory_parameter"}
+ 41 1.4426e+09
+Message Emotionalmove_body {} 40 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":31,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0.70711,-0.70711],"type":"mandatory_parameter"}
+ 42 1.4426e+09
+Message Emotionalmove_body {} 41 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":28,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0.70711,-0.70711],"type":"mandatory_parameter"}
+ 43 1.4426e+09
+Message Emotionalmove_body {} 42 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":72,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0.38268,-0.92388],"type":"mandatory_parameter"}
+ 44 1.4426e+09
+Message Emotionalmove_body {} 43 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":72,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0,1],"type":"mandatory_parameter"}
+ 45 1.4426e+09
+Message Emotionalmove_body {} 44 1.4426e+09
+Message move_body {"landmark_id":72,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0,1],"type":"mandatory_parameter"}
+ 46 1.4426e+09
+Message Emotionalmove_body {} 45 1.4426e+09
+Message move_body stop 47 1.4426e+09
+[0m[ INFO] [1442604288.742007379]: action move body has finished[0m
+Message move_body {"landmark_id":72,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0,1],"type":"mandatory_parameter"}
+ 48 1.4426e+09
+Message Emotionalmove_body {} 46 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":64,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,-0.38268,0.92388],"type":"mandatory_parameter"}
+ 49 1.4426e+09
+Message Emotionalmove_body {} 47 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":57,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,-0.38268,0.92388],"type":"mandatory_parameter"}
+ 50 1.4426e+09
+Message Emotionalmove_body {} 48 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":40,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,-0.38268,0.92388],"type":"mandatory_parameter"}
+ 51 1.4426e+09
+Message Emotionalmove_body {} 49 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":40,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,1,0],"type":"mandatory_parameter"}
+ 52 1.4426e+09
+Message Emotionalmove_body {} 50 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":41,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,1,0],"type":"mandatory_parameter"}
+ 53 1.4426e+09
+Message Emotionalmove_body {} 51 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":41,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0,1],"type":"mandatory_parameter"}
+ 54 1.4426e+09
+Message Emotionalmove_body {} 52 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":44,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0,1],"type":"mandatory_parameter"}
+ 55 1.4426e+09
+Message Emotionalmove_body {} 53 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":44,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,1,0],"type":"mandatory_parameter"}
+ 56 1.4426e+09
+Message Emotionalmove_body {} 54 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":40,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,1,0],"type":"mandatory_parameter"}
+ 57 1.4426e+09
+Message Emotionalmove_body {} 55 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":31,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0.70711,-0.70711],"type":"mandatory_parameter"}
+ 58 1.4426e+09
+Message Emotionalmove_body {} 56 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":28,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0.70711,-0.70711],"type":"mandatory_parameter"}
+ 59 1.4426e+09
+Message Emotionalmove_body {} 57 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":72,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0.38268,-0.92388],"type":"mandatory_parameter"}
+ 60 1.4426e+09
+Message Emotionalmove_body {} 58 1.4426e+09
+Message move_body stop 61 1.4426e+09
+[0m[ INFO] [1442604326.263583230]: action move body has finished[0m
+Message move_body {"landmark_id":72,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0,1],"type":"mandatory_parameter"}
+ 62 1.4426e+09
+Message Emotionalmove_body {} 59 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":64,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,-0.38268,0.92388],"type":"mandatory_parameter"}
+ 63 1.4426e+09
+Message Emotionalmove_body {} 60 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":57,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,-0.38268,0.92388],"type":"mandatory_parameter"}
+ 64 1.4426e+09
+Message Emotionalmove_body {} 61 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":40,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,-0.38268,0.92388],"type":"mandatory_parameter"}
+ 65 1.4426e+09
+Message Emotionalmove_body {} 62 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":40,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,1,0],"type":"mandatory_parameter"}
+ 66 1.4426e+09
+Message Emotionalmove_body {} 63 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":41,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,1,0],"type":"mandatory_parameter"}
+ 67 1.4426e+09
+Message Emotionalmove_body {} 64 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":41,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0,1],"type":"mandatory_parameter"}
+ 68 1.4426e+09
+Message Emotionalmove_body {} 65 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":44,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0,1],"type":"mandatory_parameter"}
+ 69 1.4426e+09
+Message Emotionalmove_body {} 66 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":44,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,1,0],"type":"mandatory_parameter"}
+ 70 1.4426e+09
+Message Emotionalmove_body {} 67 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":40,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,1,0],"type":"mandatory_parameter"}
+ 71 1.4426e+09
+Message Emotionalmove_body {} 68 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":31,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0.70711,-0.70711],"type":"mandatory_parameter"}
+ 72 1.4426e+09
+Message Emotionalmove_body {} 69 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":28,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0.70711,-0.70711],"type":"mandatory_parameter"}
+ 73 1.4426e+09
+Message Emotionalmove_body {} 70 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":72,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0.38268,-0.92388],"type":"mandatory_parameter"}
+ 74 1.4426e+09
+Message Emotionalmove_body {} 71 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":72,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,0,1],"type":"mandatory_parameter"}
+ 75 1.4426e+09
+Message Emotionalmove_body {} 72 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":64,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,-0.38268,0.92388],"type":"mandatory_parameter"}
+ 76 1.4426e+09
+Message Emotionalmove_body {} 73 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":57,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,-0.38268,0.92388],"type":"mandatory_parameter"}
+ 77 1.4426e+09
+Message Emotionalmove_body {} 74 1.4426e+09
+action finished coming from move_body
+Message move_body {"landmark_id":40,"landmark_type":"Place_Landmark","name":"parameter_landmark","pose":[0,0,-0.38268,0.92388],"type":"mandatory_parameter"}
+ 78 1.4426e+09
+Message Emotionalmove_body {} 75 1.4426e+09
